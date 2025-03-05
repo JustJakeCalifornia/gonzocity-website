@@ -183,11 +183,12 @@ export default function Chat() {
 ### Styling
 -   Use Tailwind CSS with a mobile-first approach
 -  Use shadcn-ui as the primary UI component library; for unavailable components, consider Aceternity UI, Origin UI, or Motion Primitives!
-- Model your UI/UX design after the aesthetics, user interface (UI) and user experience (UX) of dub.co and 21st.dev websites (VERY IMPORTANT!!!)!!
+- Model your UI/UX design after the aesthetics, user interface (UI) and user experience (UX) of [dub.co](https://dub.co/) and [family.co](https://family.co/) websites (VERY IMPORTANT!!!)!!
 - Integrate Tailwind for utility-based styling; avoid @apply directive.
 -   Follow consistent spacing and layout patterns
 -   Ensure responsive design across breakpoints
 -   Use CSS variables for theme customization
+-   Ensure keyboard navigatio. For example searching with Command + K
 
 ### Accessibility
 -   Implement proper ARIA attributes
