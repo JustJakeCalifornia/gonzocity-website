@@ -1,5 +1,6 @@
 import { PartnersSection } from "@/components/layout/sections/partners"
 import HeroSection from "../../components/layout/sections/hero"
+import BenefitsSection from "@/components/layout/sections/benefits"
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
       <div className="mx-auto max-w-4xl text-center">
         <HeroSection />
         <PartnersSection />
+        <BenefitsSection />
       </div>
     </div>
   )

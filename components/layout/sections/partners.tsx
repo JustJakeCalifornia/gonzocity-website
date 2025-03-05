@@ -103,7 +103,7 @@ export const PartnersSection = () => {
                         <Icon
                           name={partner.image as keyof typeof icons}
                           size={32}
-                          color="black"
+                          color="currentColor"
                           className="mr-2"
                         />
                         {partner.name}
