@@ -1,34 +1,35 @@
-import { FeatureGrid, FeatureItem } from "../grids/FeatureGrid"
-import {
-  IconCloud,
-  IconCurrencyDollar,
-  IconEaseInOut,
-  IconTerminal2,
-} from "@tabler/icons-react"
+import { GradientPatternGrid, Item } from "../grids/gradient-pattern-grid"
 
-const features: FeatureItem[] = [
+const items: Item[] = [
   {
-    title: "Built for developers",
+    title: "HIPAA and SOC2 Compliant",
     description:
-      "Built for engineers, developers, dreamers, thinkers and doers.",
-    icon: <IconTerminal2 />,
+      "Our applications are HIPAA and SOC2 compliant, your data is safe with us, always.",
   },
   {
-    title: "Ease of use",
+    title: "Automated Social Media Posting",
     description:
-      "It's as easy as using an Apple, and as expensive as buying one.",
-    icon: <IconEaseInOut />,
+      "Schedule and automate your social media posts across multiple platforms to save time and maintain a consistent online presence.",
   },
   {
-    title: "Pricing like no other",
+    title: "Advanced Analytics",
     description:
-      "Our prices are best in the market. No cap, no lock, no credit card required.",
-    icon: <IconCurrencyDollar />,
+      "Gain insights into your social media performance with detailed analytics and reporting tools to measure engagement and ROI.",
   },
   {
-    title: "100% Uptime guarantee",
-    description: "We just cannot be taken down by anyone.",
-    icon: <IconCloud />,
+    title: "Content Calendar",
+    description:
+      "Plan and organize your social media content with an intuitive calendar view, ensuring you never miss a post.",
+  },
+  {
+    title: "Audience Targeting",
+    description:
+      "Reach the right audience with advanced targeting options, including demographics, interests, and behaviors.",
+  },
+  {
+    title: "Social Listening",
+    description:
+      "Monitor social media conversations and trends to stay informed about what your audience is saying and respond in real-time.",
   },
 ]
 
@@ -53,7 +54,7 @@ export const BenefitsSection = () => {
         </div>
       </div>
 
-      <FeatureGrid features={features} />
+      <GradientPatternGrid items={items} />
     </section>
   )
 }
