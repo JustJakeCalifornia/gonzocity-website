@@ -46,6 +46,7 @@ Before responding to any request, follow these steps:
 
 - Write concise, readable TypeScript code
 - Use functional and declarative programming patterns
+- Components should always be "const" instead of "function"
 - Follow DRY (Don't Repeat Yourself) principle
 - Implement early returns for better readability
 - Structure components logically: exports, subcomponents, helpers, types
