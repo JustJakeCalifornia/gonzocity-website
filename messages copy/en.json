@@ -1,0 +1,526 @@
+{
+  "navbar": {
+    "navigation": {
+      "benefits": "Benefits",
+      "features": "Features",
+      "modules": "Modules",
+      "contact": "Contact"
+    },
+    "actions": {
+      "signIn": "Sign in",
+      "getStarted": "Get Started"
+    }
+  },
+  "hero": {
+    "title": {
+      "prefix": "Transform Municipal Operations with",
+      "highlight": "Real-Time",
+      "suffix": "Efficiency"
+    },
+    "description": "Streamline city infrastructure documentation and management. Connect field workers and office staff in real-time for seamless coordination.",
+    "actions": {
+      "getStartedbutton": "Get Started",
+      "downloadiOSButton": "Download iOS app"
+    },
+    "tabs": {
+      "controlPanel": "Control Panel",
+      "iosApp": "iOS App"
+    }
+  },
+  "partners": {
+    "sectionTitle": "Our Partners",
+    "heading": "Trusted by Industry Leaders",
+    "description": "Empowering over 2,000+ organizations across 50+ cities worldwide"
+  },
+  "benefits": {
+    "sectionTitle": "Benefits",
+    "heading": "Your Shortcut to Success",
+    "description": "Modernize your infrastructure management with our digital solution. From street furniture to urban greenery, efficiently track and maintain your municipal assets while reducing costs and improving service delivery.",
+    "items": [
+      {
+        "icon": "Blocks",
+        "title": "Streamline Asset Management",
+        "description": "Efficiently document and manage municipal assets with our structured digital solution. Transform complex infrastructure data into organized, accessible records."
+      },
+      {
+        "icon": "LineChart",
+        "title": "Enhance Decision Making",
+        "description": "Make informed decisions with comprehensive asset data at your fingertips. Track maintenance needs, identify patterns, and optimize resource allocation."
+      },
+      {
+        "icon": "Wallet",
+        "title": "Reduce Operational Costs",
+        "description": "Cut down on manual documentation efforts and minimize maintenance oversights. Our system helps prevent costly repairs through better tracking and early intervention."
+      },
+      {
+        "icon": "Sparkle",
+        "title": "Improve Service Quality",
+        "description": "Deliver better public services through systematic asset monitoring. From street lighting to urban greenery, ensure every asset receives timely attention."
+      }
+    ]
+  },
+  "features": {
+    "sectionTitle": "Features",
+    "heading": "What Makes Us Different",
+    "description": "Transforming municipal efficiency by streamlining the documentation of essential assets like gullies, trees, and street lights. Our solutions empower local governments to manage their resources effectively and enhance community services.",
+    "items": [
+      {
+        "icon": "ClipboardList",
+        "title": "Digital Documentation",
+        "description": "Easily document and manage city infrastructure including gullies, trees, street lights, and more."
+      },
+      {
+        "icon": "TabletSmartphone",
+        "title": "iOS App",
+        "description": "Easily document and manage city infrastructure including gullies, trees, street lights, and more."
+      },
+      {
+        "icon": "BarChart3",
+        "title": "Control Panel",
+        "description": "Comprehensive reporting and analytics to track efficiency and make data-driven decisions."
+      },
+      {
+        "icon": "PictureInPicture",
+        "title": "Strong Visuals",
+        "description": "Clean and modern UI that enhances usability and accessibility, making navigation effortless."
+      },
+      {
+        "icon": "Sparkle",
+        "title": "Real-Time Updates",
+        "description": "Instant communication between office staff and field workers for efficient task management."
+      },
+      {
+        "icon": "Bell",
+        "title": "Smart Notifications",
+        "description": "Automated alerts for maintenance schedules, urgent repairs, and task assignments."
+      }
+    ]
+  },
+  "modules": {
+    "sectionTitle": "Modules",
+    "heading": "Everything you need to manage your city",
+    "description": "Choose from our comprehensive suite of modules to build the perfect solution for your municipality",
+    "items": {
+      "gullyGonzo": {
+        "title": "GullyGonzo",
+        "description": "Streamline gully and drainage management with real-time monitoring, maintenance scheduling, and issue tracking for optimal urban water flow"
+      },
+      "ratGonzo": {
+        "title": "RatGonzo",
+        "description": "Comprehensive pest control management system for monitoring rodent activity, tracking bait stations, and coordinating rapid response teams"
+      },
+      "streetGonzo": {
+        "title": "StreetGonzo",
+        "description": "Efficient street furniture and infrastructure management for maintaining benches, signs, lights, and other urban amenities"
+      },
+      "parkGonzo": {
+        "title": "ParkGonzo",
+        "description": "Modern parks and recreation management solution for maintaining green spaces, playgrounds, and urban forestry assets"
+      }
+    }
+  },
+  "onboarding": {
+    "sectionTitle": "Onboarding",
+    "heading": "How it works",
+    "description": "These are the steps to seamlessly start your journey towards more efficient city management",
+    "steps": {
+      "step1": {
+        "title": "Try Out Demo",
+        "description": "Experience our solution firsthand. Request a demo through our contact form and see how it can transform your operations",
+        "actionName": "Request Demo"
+      },
+      "step2": {
+        "title": "Select Modules",
+        "description": "Choose the specific modules that best fit your municipality or business needs after experiencing the demo",
+        "actionName": "View Modules"
+      },
+      "step3": {
+        "title": "Delivery & Training",
+        "description": "Schedule a convenient date for system deployment and comprehensive on-site training for your team"
+      }
+    }
+  },
+  "testimonials": {
+    "sectionTitle": "Testimonials",
+    "heading": "Hear What Our 1000+ Clients Say",
+    "reviews": [
+      {
+        "name": "Charlotte Brown",
+        "role": "UX Designer at Aussie Digital Lab (Australia)",
+        "comment": "We introduced this solution to several local councils, and the response was overwhelmingly positive. The platform's modern UI and quick documentation process for assets like streetlights and trees have significantly streamlined municipal workflows.",
+        "rating": 4.9
+      },
+      {
+        "name": "Johann Müller",
+        "role": "Geschäftsführer at BerlinTech GmbH (Germany)",
+        "comment": "Unsere Gemeinde-Partner sind begeistert von der benutzerfreundlichen iOS- und Web-App. Ob Straßenlaternen, Bäume oder Mülleimer – die Dokumentation war noch nie so einfach. Ein echter Gewinn für die kommunale Verwaltung!",
+        "rating": 5.0
+      },
+      {
+        "name": "Jessica Thompson",
+        "role": "Marketing Director at Acme Corp (U.S.)",
+        "comment": "We've helped multiple cities adopt this platform, and the feedback has been fantastic. The ability to track and update various assets on both iOS and web—like gullies and streetlights—has genuinely transformed local government operations.",
+        "rating": 4.8
+      },
+      {
+        "name": "Helena Schulz",
+        "role": "Lead Developer at München Innovations (Germany)",
+        "comment": "Die Integration eines zentralen Systems zur Erfassung von Straßenlaternen, Bäumen und Co. funktioniert reibungslos. Vor allem das Echtzeit-Reporting und die intuitive Bedienung sind ein großes Plus für unsere Kommunen.",
+        "rating": 4.9
+      },
+      {
+        "name": "Oliver Smith",
+        "role": "CTO at SydneyTech Solutions (Australia)",
+        "comment": "This platform offers one of the most efficient ways to manage municipal data that I've seen. From iOS app to web dashboard, the flow is seamless, and our clients love how quick it is to document assets like rubbish bins and streetlights.",
+        "rating": 5.0
+      },
+      {
+        "name": "Michael Anderson",
+        "role": "CEO at Redwood Analytics (U.S.)",
+        "comment": "Adopting this software has made asset tracking effortless for our partner municipalities. The simple user interface and real-time updates on everything from gullies to garbage cans mean cities can operate far more efficiently.",
+        "rating": 5.0
+      }
+    ]
+  },
+  "contact": {
+    "sectionTitle": "Contact",
+    "heading": "Connect With Us",
+    "description": "Experience the power of GonzoCity's municipal operations platform. Fill out the form below to begin your journey towards more efficient city management."
+  },
+  "contact-form": {
+    "title": "Request Form",
+    "dialogDescription": "Enter your details below to start your free trial of GonzoCity's municipal operations platform.",
+    "progress": {
+      "step": "Step {step} of {total}",
+      "next": "Next",
+      "previous": "Previous",
+      "submit": "Submit",
+      "submitting": "Submitting..."
+    },
+    "fields": {
+      "firstName": {
+        "label": "First Name",
+        "placeholder": "John"
+      },
+      "lastName": {
+        "label": "Last Name",
+        "placeholder": "Doe"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "john.doe@example.com"
+      },
+      "organization": {
+        "label": "Organization",
+        "placeholder": "Enter your company or city name here"
+      },
+      "requestReason": {
+        "label": "Request Reason",
+        "placeholder": "Select a reason",
+        "options": {
+          "contact": "Request introductory contact",
+          "trial": "Request trial"
+        }
+      },
+      "modules": {
+        "label": "Modules"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Type your message here"
+      }
+    },
+    "errors": {
+      "rateLimit": "Rate limit exceeded. Please try again later.",
+      "invalidRequest": "Invalid request. Please try again.",
+      "invalidFormData": "Invalid form data. Please check your input and try again."
+    },
+    "success": {
+      "emailSent": "Email sent successfully!"
+    }
+  },
+  "footer": {
+    "sections": {
+      "socials": {
+        "title": "Socials",
+        "instagram": "Instagram"
+      },
+      "legal": {
+        "title": "Legal",
+        "termsOfService": "Terms of Service",
+        "privacyPolicy": "Privacy Policy",
+        "legalNotice": "Legal Notice"
+      }
+    },
+    "copyright": "© 2024 GapLabs. All rights reserved."
+  },
+  "termsOfService": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: February 10, 2025",
+    "intro": {
+      "description": "These Terms of Service (\"Terms\") constitute a binding agreement between GapLabs GmbH (\"GapLabs,\" \"we,\" \"us,\" or \"our\") and any municipality or business (\"User,\" \"you,\" or \"your\") that registers for or uses our subscription-based software product (\"GonzoCity\"). By accessing or using GonzoCity—whether through our website-based control panel or our mobile app—you agree to be bound by these Terms. If you do not agree with these Terms, please do not use GonzoCity."
+    },
+    "sections": {
+      "section1": {
+        "title": "1. Company Information",
+        "legalName": {
+          "label": "Legal Name",
+          "text": "GapLabs GmbH"
+        },
+        "jurisdiction": {
+          "label": "Jurisdiction",
+          "text": "Germany"
+        }
+      },
+      "section2": {
+        "title": "2. Description of GonzoCity",
+        "content": "GapLabs provides subscription-based software designed for municipalities and businesses. GonzoCity is accessible through a website-based control panel and a mobile app. In order to use GonzoCity, Users must create an account and provide certain general information and location data, which is essential for our core business functionality."
+      },
+      "section3": {
+        "title": "3. User Accounts and Registration",
+        "accountCreation": {
+          "label": "Account Creation",
+          "text": "Access to GonzoCity is available only to municipalities and businesses that register and create an account with us."
+        },
+        "dataCollection": {
+          "label": "Data Collection",
+          "text": "During registration, we collect general information. Additionally, GonzoCity requires access to your location data as a fundamental part of the product offering."
+        },
+        "userResponsibilities": {
+          "label": "User Responsibilities",
+          "text": "Users are expected to provide accurate and current information and to use GonzoCity in a lawful and responsible manner. While we do not impose overly specific behavioral requirements, you agree to comply with these general obligations."
+        }
+      },
+      "section4": {
+        "title": "4. Subscription, Payment, and Refund Policy",
+        "model": {
+          "label": "Subscription Model",
+          "text": "GonzoCity is offered on a subscription basis."
+        },
+        "paymentOptions": {
+          "label": "Payment Options",
+          "text": "We accept a wide range of payment methods. The most common payment option is wire transfer."
+        },
+        "freeTrial": {
+          "label": "Free Trial",
+          "text": "We offer a 14-day free trial period."
+        },
+        "noRefunds": {
+          "label": "No Refunds",
+          "text": "All subscription payments are final. We do not offer refunds for any subscription fees once the payment has been processed."
+        },
+        "cancelation": {
+          "label": "Cancelation",
+          "text": "You may cancel your subscription at any time; however, no refunds will be provided for any subscription fees already charged."
+        }
+      },
+      "section5": {
+        "title": "5. Intellectual Property and User Content",
+        "ownership": {
+          "label": "Ownership of Data",
+          "companyData": {
+            "label": "Company Data",
+            "text": "All data generated by GapLabs remains the property of GapLabs."
+          },
+          "userData": {
+            "label": "User Data",
+            "text": "Data provided or generated by Users is owned by GapLabs. However, Users are entitled to export or claim their data as provided through GonzoCity."
+          }
+        },
+        "userGeneratedContent": {
+          "label": "User-Generated Content",
+          "text": "GonzoCity allows Users to interact with their own company data (for example, by adding new orders or other information). Such interactions are governed by these Terms."
+        },
+        "thirdPartyIP": {
+          "label": "Third-Party Intellectual Property",
+          "text": "GonzoCity does not incorporate a mechanism for handling copyright or DMCA claims. Users are responsible for ensuring that their use of GonzoCity does not infringe on the rights of others."
+        }
+      },
+      "section6": {
+        "title": "6. Acceptable Use and Prohibited Activities",
+        "acceptableUse": {
+          "label": "Acceptable Use",
+          "text": "Users agree to use GonzoCity only for lawful purposes and in accordance with these Terms."
+        },
+        "prohibitedActivities": {
+          "label": "Prohibited Activities",
+          "circumventPayments": "Users shall not engage in activities that attempt to circumvent or defraud the subscription payment system.",
+          "disruption": "Users must refrain from any activity that disrupts or interferes with GonzoCity or the experience of other Users.",
+          "fraudulentUse": "Any other activity deemed by GapLabs to be harmful, fraudulent, or abusive is strictly prohibited."
+        },
+        "enforcement": {
+          "label": "Enforcement",
+          "text": "Violation of these acceptable use policies may result in warnings, suspension, or termination of your account, at our sole discretion."
+        }
+      },
+      "section7": {
+        "title": "7. Disclaimers, Warranties, and Limitation of Liability",
+        "accuracy": {
+          "label": "Service Accuracy and Availability",
+          "text": "While we strive to provide an accurate and reliable experience, GapLabs does not guarantee uninterrupted or error-free access."
+        },
+
+        "warranties": {
+          "label": "Warranties",
+          "providedAsIs": "GapLabs provides GonzoCity \"as is\" and \"as available.\"",
+          "noGuarantees": "We make no express warranties regarding GonzoCity, and all warranties, whether express or implied, are disclaimed to the fullest extent permitted by law."
+        },
+        "limitationOfLiability": {
+          "label": "Limitation of Liability",
+          "noIndirectLiability": "In no event shall GapLabs be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or in connection with your use of GonzoCity.",
+          "maxLiability": "Our total liability, whether in contract, tort, or otherwise, shall be limited to the amount paid by you for the subscription in question."
+        }
+      },
+      "section8": {
+        "title": "8. Termination and Suspension",
+        "byCompany": {
+          "label": "Termination by GapLabs",
+          "text": "We reserve the right to suspend or terminate your account if you fail to pay your subscription fee or if you otherwise breach these Terms."
+        },
+        "byUser": {
+          "label": "User Termination",
+          "text": "Users may choose to delete their account at any time. Please note that deleting your account will result in the irrevocable deletion of all associated data."
+        }
+      },
+      "section9": {
+        "title": "9. Dispute Resolution and Governing Law",
+        "resolution": {
+          "label": "Dispute Resolution",
+          "text": "Any disputes arising out of or related to these Terms shall be resolved through general dispute resolution mechanisms, which may include negotiation, mediation, or, if necessary, legal proceedings."
+        },
+        "governingLaw": {
+          "label": "Governing Law and Jurisdiction",
+          "law": "These Terms shall be governed by and construed in accordance with the laws of Germany.",
+          "jurisdiction": "Any legal action or proceeding arising out of or relating to these Terms shall be brought exclusively in the courts located in Germany."
+        }
+      },
+      "section10": {
+        "title": "10. Modifications to the Terms",
+        "updates": {
+          "label": "Updates",
+          "text": "GapLabs may update these Terms from time to time. It is your responsibility to regularly review the Terms by visiting our website."
+        },
+        "continuedUse": {
+          "label": "Continued Use",
+          "text": "Your continued use of GonzoCity after any modifications to the Terms constitutes your acceptance of the revised Terms."
+        }
+      },
+      "section11": {
+        "title": "11. Indemnification and Force Majeure",
+        "indemnify": {
+          "label": "Indemnification",
+          "text": "You agree to indemnify, defend, and hold harmless GapLabs and its affiliates from and against any claims, damages, liabilities, costs, or expenses arising from your use of GonzoCity or your breach of these Terms."
+        },
+        "forceMajeure": {
+          "label": "Force Majeure",
+          "text": "GapLabs shall not be liable for any failure to perform its obligations under these Terms if such failure is due to circumstances beyond its reasonable control, including, but not limited to, acts of God, war, or other force majeure events."
+        }
+      },
+      "section12": {
+        "title": "12. Integration with Other Policies",
+        "content": "Our Terms of Service are integrated with and form a part of our broader set of policies, including but not limited to our Privacy Policy. By using GonzoCity, you acknowledge and agree to be bound by these policies as well."
+      },
+      "section13": {
+        "title": "13. Contact Information",
+        "description": "If you have any questions about these Terms, please contact us at:",
+        "company": "GapLabs GmbH",
+        "address": {
+          "street": "Mühlenstraße 21",
+          "city": "26419 Schortens",
+          "country": "Germany"
+        },
+        "email": {
+          "label": "Email",
+          "content": "info@gaplabs.de"
+        },
+        "phone": {
+          "label": "Phone",
+          "content": "+49 17655044671"
+        }
+      }
+    }
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "sections": {
+      "section1": {
+        "title": "Who We Are",
+        "content": {
+          "websiteAddress": "Our website address is: https://gonzocity.com."
+        }
+      },
+      "section2": {
+        "title": "Comments",
+        "content": {
+          "dataCollection": "When visitors leave comments on the site, we collect the data shown in the comments form, as well as the visitor's IP address and browser user agent string to help spam detection.",
+          "gravatarInfo": "An anonymized string created from your email address (also called a hash) may be provided to the Gravatar service to see if you are using it. The Gravatar service privacy policy is available here: https://automattic.com/privacy/. After approval of your comment, your profile picture is visible to the public in the context of your comment."
+        }
+      },
+      "section3": {
+        "title": "Media",
+        "content": {
+          "exifWarning": "If you are a registered user and upload images to the website, you should avoid uploading images with embedded location data (EXIF GPS). Visitors to the website can download and extract any location data from images on the website."
+        }
+      },
+      "section4": {
+        "title": "Cookies",
+        "content": {
+          "commentCookies": "If you leave a comment on our site you may opt-in to saving your name, email address and website in cookies. These are for your convenience so that you do not have to fill in your details again when you leave another comment. These cookies will last for one year.",
+          "loginCookies": "If you have an account and you log in to this site, we will set a temporary cookie to determine if your browser accepts cookies. This cookie contains no personal data and is discarded when you close your browser.",
+          "authCookies": "When you log in, we will also set up several cookies to save your login information and your screen display choices. Login cookies last for two days, and screen options cookies last for a year. If you select \"Remember Me\", your login will persist for two weeks. If you log out of your account, the login cookies will be removed.",
+          "editingCookies": "If you edit or publish an article, an additional cookie will be saved in your browser. This cookie includes no personal data and simply indicates the post ID of the article you just edited. It expires after 1 day."
+        }
+      },
+      "section5": {
+        "title": "Embedded Content from Other Websites",
+        "content": {
+          "behavior": "Articles on this site may include embedded content (e.g. videos, images, articles, etc.). Embedded content from other websites behaves in the exact same way as if the visitor has visited the other website.",
+          "dataCollection": "These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracking your interaction with the embedded content if you have an account and are logged in to that website."
+        }
+      },
+      "section6": {
+        "title": "Who We Share Your Data With",
+        "content": {
+          "passwordReset": "If you request a password reset, your IP address will be included in the reset email."
+        }
+      },
+      "section7": {
+        "title": "How Long We Retain Your Data",
+        "content": {
+          "userProfiles": "For users that register on our website, we also store the personal information they provide in their user profile. All users can see, edit, or delete their personal information at any time (except they cannot change their username). Website administrators can also see and edit that information."
+        }
+      },
+      "section8": {
+        "title": "What Rights You Have Over Your Data",
+        "content": {
+          "exportDelete": "If you have an account on this site, or have left comments, you can request to receive an exported file of the personal data we hold about you, including any data you have provided to us. You can also request that we erase any personal data we hold about you. This does not include any data we are obliged to keep for administrative, legal, or security purposes."
+        }
+      },
+      "section9": {
+        "title": "Where We Send Your Data",
+        "content": {
+          "spamCheck": "Visitor comments may be checked through an automated spam detection service."
+        }
+      }
+    }
+  },
+  "legalNotice": {
+    "title": "Legal Notice",
+    "address": {
+      "label": "Address",
+      "name": "Marc Lütke",
+      "street": "Mühlenstraße 21",
+      "city": "26419 Schortens",
+      "country": "Germany"
+    },
+    "contact": {
+      "label": "Contact",
+      "email": "info@gaplabs.de",
+      "phone": "+49 17655044671"
+    },
+    "disclaimer": {
+      "label": "Disclaimer",
+      "content": "Even though we put a lot of effort into reviewing our content, we can't take responsibility for the content of external links. The operators of those linked sites are solely responsible for their content."
+    }
+  }
+}

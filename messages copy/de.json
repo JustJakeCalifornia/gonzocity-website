@@ -1,0 +1,525 @@
+{
+  "navbar": {
+    "navigation": {
+      "benefits": "Vorteile",
+      "features": "Funktionen",
+      "modules": "Module",
+      "contact": "Kontakt"
+    },
+    "actions": {
+      "signIn": "Anmelden",
+      "getStarted": "Jetzt starten"
+    }
+  },
+  "hero": {
+    "title": {
+      "prefix": "Optimieren Sie kommunale Abläufe mit",
+      "highlight": "Echtzeit",
+      "suffix": "Effizienz"
+    },
+    "description": "Digitalisieren Sie die Dokumentation und Verwaltung der städtischen Infrastruktur. Verbinden Sie Außendienstmitarbeiter und Büropersonal in Echtzeit für eine nahtlose Koordination.",
+    "actions": {
+      "getStartedbutton": "Jetzt starten",
+      "downloadiOSButton": "iOS App herunterladen"
+    },
+    "tabs": {
+      "controlPanel": "Kontrollzentrum",
+      "iosApp": "iOS App"
+    }
+  },
+  "partners": {
+    "sectionTitle": "Unsere Partner",
+    "heading": "Vertraut von Branchenführern",
+    "description": "Unterstützt über 2.000+ Organisationen in mehr als 50+ Städten weltweit"
+  },
+  "benefits": {
+    "sectionTitle": "Vorteile",
+    "heading": "Ihr Weg zum Erfolg",
+    "description": "Modernisieren Sie Ihr Infrastrukturmanagement mit unserer digitalen Lösung. Von Stadtmöbeln bis zur urbanen Begrünung – verfolgen und warten Sie Ihre kommunalen Anlagen effizient bei gleichzeitiger Kostensenkung und verbesserter Servicequalität.",
+    "items": [
+      {
+        "icon": "Blocks",
+        "title": "Effizientes Anlagenmanagement",
+        "description": "Dokumentieren und verwalten Sie kommunale Anlagen effizient mit unserer strukturierten digitalen Lösung. Wandeln Sie komplexe Infrastrukturdaten in organisierte, zugängliche Aufzeichnungen um."
+      },
+      {
+        "icon": "LineChart",
+        "title": "Bessere Entscheidungsfindung",
+        "description": "Treffen Sie fundierte Entscheidungen mit umfassenden Anlagendaten auf Abruf. Verfolgen Sie Wartungsbedarf, erkennen Sie Muster und optimieren Sie die Ressourcenzuweisung."
+      },
+      {
+        "icon": "Wallet",
+        "title": "Reduzierung der Betriebskosten",
+        "description": "Reduzieren Sie den manuellen Dokumentationsaufwand und minimieren Sie Wartungsversäumnisse. Unser System hilft durch besseres Tracking und frühzeitiges Eingreifen, kostspielige Reparaturen zu vermeiden."
+      },
+      {
+        "icon": "Sparkle",
+        "title": "Verbesserte Servicequalität",
+        "description": "Bieten Sie bessere öffentliche Dienste durch systematische Anlagenüberwachung. Von der Straßenbeleuchtung bis zur städtischen Begrünung – stellen Sie sicher, dass jede Anlage rechtzeitig gewartet wird."
+      }
+    ]
+  },
+  "features": {
+    "sectionTitle": "Funktionen",
+    "heading": "Was uns besonders macht",
+    "description": "Transformation der kommunalen Effizienz durch Optimierung der Dokumentation wesentlicher Anlagen wie Abflüsse, Bäume und Straßenbeleuchtung. Unsere Lösungen ermöglichen Kommunen, ihre Ressourcen effektiv zu verwalten und Gemeindedienste zu verbessern.",
+    "items": [
+      {
+        "icon": "ClipboardList",
+        "title": "Digitale Dokumentation",
+        "description": "Einfache Dokumentation und Verwaltung der städtischen Infrastruktur einschließlich Abflüsse, Bäume, Straßenbeleuchtung und mehr."
+      },
+      {
+        "icon": "TabletSmartphone",
+        "title": "iOS App",
+        "description": "Einfache Dokumentation und Verwaltung der städtischen Infrastruktur einschließlich Abflüsse, Bäume, Straßenbeleuchtung und mehr."
+      },
+      {
+        "icon": "BarChart3",
+        "title": "Kontrollzentrum",
+        "description": "Umfassende Berichterstattung und Analysen zur Verfolgung der Effizienz und für datengestützte Entscheidungen."
+      },
+      {
+        "icon": "PictureInPicture",
+        "title": "Klare Visualisierung",
+        "description": "Übersichtliche und moderne Benutzeroberfläche, die die Bedienbarkeit und Zugänglichkeit verbessert und die Navigation erleichtert."
+      },
+      {
+        "icon": "Sparkle",
+        "title": "Echtzeit-Updates",
+        "description": "Sofortige Kommunikation zwischen Büropersonal und Außendienstmitarbeitern für effizientes Aufgabenmanagement."
+      },
+      {
+        "icon": "Bell",
+        "title": "Intelligente Benachrichtigungen",
+        "description": "Automatisierte Warnungen für Wartungspläne, dringende Reparaturen und Aufgabenzuweisungen."
+      }
+    ]
+  },
+  "modules": {
+    "sectionTitle": "Module",
+    "heading": "Alles, was Sie für Ihre Stadtverwaltung brauchen",
+    "description": "Wählen Sie aus unserer umfassenden Palette von Modulen, um die perfekte Lösung für Ihre Kommune zu erstellen",
+    "items": {
+      "gullyGonzo": {
+        "title": "GullyGonzo",
+        "description": "Optimieren Sie das Management von Abflüssen und Entwässerung mit Echtzeit-Überwachung, Wartungsplanung und Problemverfolgung für optimalen städtischen Wasserfluss"
+      },
+      "ratGonzo": {
+        "title": "RatGonzo",
+        "description": "Umfassendes Schädlingsbekämpfungssystem zur Überwachung von Nagetieraktivitäten, Verfolgung von Köderstationen und Koordination von Schnelleinsatzteams"
+      },
+      "streetGonzo": {
+        "title": "StreetGonzo",
+        "description": "Effizientes Management von Stadtmöbeln und Infrastruktur zur Wartung von Bänken, Beschilderungen, Beleuchtung und anderen städtischen Einrichtungen"
+      },
+      "parkGonzo": {
+        "title": "ParkGonzo",
+        "description": "Moderne Lösung für die Verwaltung von Parks und Erholungseinrichtungen zur Pflege von Grünflächen, Spielplätzen und städtischen Forstanlagen"
+      }
+    }
+  },
+  "onboarding": {
+    "sectionTitle": "Einführung",
+    "heading": "So funktioniert's",
+    "description": "Diese Schritte führen Sie nahtlos zu einer effizienteren Stadtverwaltung",
+    "steps": {
+      "step1": {
+        "title": "Demo testen",
+        "description": "Erleben Sie unsere Lösung aus erster Hand. Fordern Sie eine Demo über unser Kontaktformular an und sehen Sie, wie sie Ihre Abläufe transformieren kann",
+        "actionName": "Demo anfordern"
+      },
+      "step2": {
+        "title": "Module auswählen",
+        "description": "Wählen Sie nach der Demo-Erfahrung die spezifischen Module aus, die am besten zu den Bedürfnissen Ihrer Kommune oder Ihres Unternehmens passen",
+        "actionName": "Module ansehen"
+      },
+      "step3": {
+        "title": "Lieferung & Schulung",
+        "description": "Vereinbaren Sie einen passenden Termin für die Systemeinführung und umfassende Vor-Ort-Schulung Ihres Teams"
+      }
+    }
+  },
+  "testimonials": {
+    "sectionTitle": "Referenzen",
+    "heading": "Das sagen unsere 1000+ Kunden",
+    "reviews": [
+      {
+        "name": "Charlotte Brown",
+        "role": "UX Designer bei Aussie Digital Lab (Australien)",
+        "comment": "Wir haben diese Lösung mehreren Gemeinden vorgestellt, und die Resonanz war überwältigend positiv. Die moderne Benutzeroberfläche und der schnelle Dokumentationsprozess für Anlagen wie Straßenbeleuchtung und Bäume haben die kommunalen Arbeitsabläufe deutlich optimiert.",
+        "rating": 4.9
+      },
+      {
+        "name": "Johann Müller",
+        "role": "Geschäftsführer bei BerlinTech GmbH (Deutschland)",
+        "comment": "Unsere Gemeinde-Partner sind begeistert von der benutzerfreundlichen iOS- und Web-App. Ob Straßenlaternen, Bäume oder Mülleimer – die Dokumentation war noch nie so einfach. Ein echter Gewinn für die kommunale Verwaltung!",
+        "rating": 5.0
+      },
+      {
+        "name": "Jessica Thompson",
+        "role": "Marketing Direktorin bei Acme Corp (USA)",
+        "comment": "Wir haben mehreren Städten bei der Einführung dieser Plattform geholfen, und das Feedback war fantastisch. Die Möglichkeit, verschiedene Anlagen wie Abflüsse und Straßenbeleuchtung sowohl über iOS als auch über das Web zu verfolgen und zu aktualisieren, hat den kommunalen Betrieb wirklich transformiert.",
+        "rating": 4.8
+      },
+      {
+        "name": "Helena Schulz",
+        "role": "Leitende Entwicklerin bei München Innovations (Deutschland)",
+        "comment": "Die Integration eines zentralen Systems zur Erfassung von Straßenlaternen, Bäumen und Co. funktioniert reibungslos. Vor allem das Echtzeit-Reporting und die intuitive Bedienung sind ein großes Plus für unsere Kommunen.",
+        "rating": 4.9
+      },
+      {
+        "name": "Oliver Smith",
+        "role": "CTO bei SydneyTech Solutions (Australien)",
+        "comment": "Diese Plattform bietet eine der effizientesten Möglichkeiten zur Verwaltung kommunaler Daten, die ich je gesehen habe. Von der iOS-App bis zum Web-Dashboard ist der Ablauf nahtlos, und unsere Kunden lieben, wie schnell die Dokumentation von Anlagen wie Mülleimern und Straßenbeleuchtung ist.",
+        "rating": 5.0
+      },
+      {
+        "name": "Michael Anderson",
+        "role": "CEO bei Redwood Analytics (USA)",
+        "comment": "Die Einführung dieser Software hat die Anlagenverfolgung für unsere Partnerkommunen mühelos gemacht. Die einfache Benutzeroberfläche und Echtzeit-Updates zu allem, von Abflüssen bis zu Mülleimern, bedeuten, dass Städte viel effizienter arbeiten können.",
+        "rating": 5.0
+      }
+    ]
+  },
+  "contact": {
+    "sectionTitle": "Kontakt",
+    "heading": "Kontaktieren Sie uns",
+    "description": "Erleben Sie die Leistungsfähigkeit der kommunalen Betriebsplattform von GonzoCity. Füllen Sie das untenstehende Formular aus, um Ihre Reise zu einer effizienteren Stadtverwaltung zu beginnen."
+  },
+  "contact-form": {
+    "title": "Anfrageformular",
+    "dialogDescription": "Geben Sie Ihre Daten ein, um Ihre kostenlose Testphase der kommunalen Betriebsplattform von GonzoCity zu starten.",
+    "progress": {
+      "step": "Schritt {step} von {total}",
+      "next": "Weiter",
+      "previous": "Zurück",
+      "submit": "Absenden",
+      "submitting": "Wird gesendet..."
+    },
+    "fields": {
+      "firstName": {
+        "label": "Vorname",
+        "placeholder": "Max"
+      },
+      "lastName": {
+        "label": "Nachname",
+        "placeholder": "Mustermann"
+      },
+      "email": {
+        "label": "E-Mail",
+        "placeholder": "max.mustermann@beispiel.de"
+      },
+      "organization": {
+        "label": "Organisation",
+        "placeholder": "Geben Sie hier Ihren Firmen- oder Stadtnamen ein"
+      },
+      "requestReason": {
+        "label": "Anfragegrund",
+        "placeholder": "Grund auswählen",
+        "options": {
+          "contact": "Erstkontakt anfragen",
+          "trial": "Testphase anfragen"
+        }
+      },
+      "modules": {
+        "label": "Module"
+      },
+      "message": {
+        "label": "Nachricht",
+        "placeholder": "Schreiben Sie Ihre Nachricht hier"
+      }
+    },
+    "errors": {
+      "rateLimit": "Anfragelimit überschritten. Bitte versuchen Sie es später erneut.",
+      "invalidRequest": "Ungültige Anfrage. Bitte versuchen Sie es erneut.",
+      "invalidFormData": "Ungültige Formulardaten. Bitte überprüfen Sie Ihre Eingaben und versuchen Sie es erneut."
+    },
+    "success": {
+      "emailSent": "E-Mail erfolgreich gesendet!"
+    }
+  },
+  "footer": {
+    "sections": {
+      "socials": {
+        "title": "Social Media",
+        "instagram": "Instagram"
+      },
+      "legal": {
+        "title": "Rechtliches",
+        "termsOfService": "Nutzungsbedingungen",
+        "privacyPolicy": "Datenschutzerklärung",
+        "legalNotice": "Impressum"
+      }
+    },
+    "copyright": "© 2024 GapLabs. Alle Rechte vorbehalten."
+  },
+  "termsOfService": {
+    "title": "Nutzungsbedingungen",
+    "lastUpdated": "Zuletzt aktualisiert: 10. Februar 2025",
+    "intro": {
+      "description": "Diese Nutzungsbedingungen (\"Bedingungen\") stellen eine verbindliche Vereinbarung zwischen GapLabs GmbH (\"GapLabs\", \"wir\", \"uns\" oder \"unser\") und jeder Kommune oder jedem Unternehmen (\"Nutzer\", \"Sie\" oder \"Ihr\") dar, die sich für unser abonnementbasiertes Softwareprodukt (\"GonzoCity\") registrieren oder es nutzen. Durch den Zugriff auf oder die Nutzung von GonzoCity – sei es über unser webbasiertes Kontrollpanel oder unsere mobile App – stimmen Sie zu, an diese Bedingungen gebunden zu sein. Wenn Sie diesen Bedingungen nicht zustimmen, nutzen Sie GonzoCity bitte nicht."
+    },
+    "sections": {
+      "section1": {
+        "title": "1. Unternehmensinformationen",
+        "legalName": {
+          "label": "Firmenname",
+          "text": "GapLabs GmbH"
+        },
+        "jurisdiction": {
+          "label": "Gerichtsbarkeit",
+          "text": "Deutschland"
+        }
+      },
+      "section2": {
+        "title": "2. Beschreibung von GonzoCity",
+        "content": "GapLabs bietet abonnementbasierte Software für Kommunen und Unternehmen an. GonzoCity ist über ein webbasiertes Kontrollpanel und eine mobile App zugänglich. Um GonzoCity nutzen zu können, müssen Nutzer ein Konto erstellen und bestimmte allgemeine Informationen sowie Standortdaten bereitstellen, die für unsere Kernfunktionalität wesentlich sind."
+      },
+      "section3": {
+        "title": "3. Benutzerkonten und Registrierung",
+        "accountCreation": {
+          "label": "Kontoerstellung",
+          "text": "Der Zugang zu GonzoCity ist nur für Kommunen und Unternehmen möglich, die sich bei uns registrieren und ein Konto erstellen."
+        },
+        "dataCollection": {
+          "label": "Datenerfassung",
+          "text": "Während der Registrierung erfassen wir allgemeine Informationen. Zusätzlich benötigt GonzoCity Zugriff auf Ihre Standortdaten als grundlegenden Bestandteil des Produktangebots."
+        },
+        "userResponsibilities": {
+          "label": "Nutzerverantwortlichkeiten",
+          "text": "Von Nutzern wird erwartet, dass sie genaue und aktuelle Informationen bereitstellen und GonzoCity in rechtmäßiger und verantwortungsvoller Weise nutzen. Auch wenn wir keine übermäßig spezifischen Verhaltensanforderungen stellen, stimmen Sie zu, diese allgemeinen Verpflichtungen einzuhalten."
+        }
+      },
+      "section4": {
+        "title": "4. Abonnement, Zahlung und Rückerstattungsrichtlinie",
+        "model": {
+          "label": "Abonnementmodell",
+          "text": "GonzoCity wird auf Abonnementbasis angeboten."
+        },
+        "paymentOptions": {
+          "label": "Zahlungsmöglichkeiten",
+          "text": "Wir akzeptieren eine Vielzahl von Zahlungsmethoden. Die häufigste Zahlungsoption ist die Überweisung."
+        },
+        "freeTrial": {
+          "label": "Kostenlose Testphase",
+          "text": "Wir bieten eine 14-tägige kostenlose Testphase an."
+        },
+        "noRefunds": {
+          "label": "Keine Rückerstattungen",
+          "text": "Alle Abonnementzahlungen sind endgültig. Wir bieten keine Rückerstattungen für bereits verarbeitete Abonnementgebühren an."
+        },
+        "cancelation": {
+          "label": "Kündigung",
+          "text": "Sie können Ihr Abonnement jederzeit kündigen; bereits berechnete Abonnementgebühren werden jedoch nicht erstattet."
+        }
+      },
+      "section5": {
+        "title": "5. Geistiges Eigentum und Nutzerinhalte",
+        "ownership": {
+          "label": "Eigentum an Daten",
+          "companyData": {
+            "label": "Unternehmensdaten",
+            "text": "Alle von GapLabs generierten Daten bleiben Eigentum von GapLabs."
+          },
+          "userData": {
+            "label": "Nutzerdaten",
+            "text": "Von Nutzern bereitgestellte oder generierte Daten sind Eigentum von GapLabs. Nutzer sind jedoch berechtigt, ihre über GonzoCity bereitgestellten Daten zu exportieren oder zu beanspruchen."
+          }
+        },
+        "userGeneratedContent": {
+          "label": "Nutzergenerierte Inhalte",
+          "text": "GonzoCity ermöglicht es Nutzern, mit ihren eigenen Unternehmensdaten zu interagieren (zum Beispiel durch Hinzufügen neuer Bestellungen oder anderer Informationen). Solche Interaktionen unterliegen diesen Bedingungen."
+        },
+        "thirdPartyIP": {
+          "label": "Geistiges Eigentum Dritter",
+          "text": "GonzoCity verfügt über keinen Mechanismus zur Behandlung von Urheberrechts- oder DMCA-Ansprüchen. Nutzer sind dafür verantwortlich sicherzustellen, dass ihre Nutzung von GonzoCity nicht die Rechte anderer verletzt."
+        }
+      },
+      "section6": {
+        "title": "6. Zulässige Nutzung und verbotene Aktivitäten",
+        "acceptableUse": {
+          "label": "Zulässige Nutzung",
+          "text": "Nutzer stimmen zu, GonzoCity nur für rechtmäßige Zwecke und in Übereinstimmung mit diesen Bedingungen zu nutzen."
+        },
+        "prohibitedActivities": {
+          "label": "Verbotene Aktivitäten",
+          "circumventPayments": "Nutzer dürfen keine Aktivitäten unternehmen, die versuchen, das Abonnement-Zahlungssystem zu umgehen oder zu betrügen.",
+          "disruption": "Nutzer müssen sich jeglicher Aktivität enthalten, die GonzoCity oder die Erfahrung anderer Nutzer stört oder beeinträchtigt.",
+          "fraudulentUse": "Jede andere Aktivität, die von GapLabs als schädlich, betrügerisch oder missbräuchlich eingestuft wird, ist streng verboten."
+        },
+        "enforcement": {
+          "label": "Durchsetzung",
+          "text": "Verstöße gegen diese Richtlinien zur zulässigen Nutzung können nach unserem alleinigen Ermessen zu Verwarnungen, Sperrung oder Kündigung Ihres Kontos führen."
+        }
+      },
+      "section7": {
+        "title": "7. Haftungsausschlüsse, Gewährleistungen und Haftungsbeschränkung",
+        "accuracy": {
+          "label": "Servicegenauigkeit und Verfügbarkeit",
+          "text": "Auch wenn wir uns bemühen, eine genaue und zuverlässige Erfahrung zu bieten, garantiert GapLabs keinen ununterbrochenen oder fehlerfreien Zugang."
+        },
+        "warranties": {
+          "label": "Gewährleistungen",
+          "providedAsIs": "GapLabs stellt GonzoCity \"wie besehen\" und \"wie verfügbar\" zur Verfügung.",
+          "noGuarantees": "Wir geben keine ausdrücklichen Garantien für GonzoCity, und alle Gewährleistungen, ob ausdrücklich oder stillschweigend, werden im gesetzlich zulässigen Umfang ausgeschlossen."
+        },
+        "limitationOfLiability": {
+          "label": "Haftungsbeschränkung",
+          "noIndirectLiability": "In keinem Fall haftet GapLabs für indirekte, zufällige, besondere, Folge- oder Strafschäden, die sich aus oder im Zusammenhang mit Ihrer Nutzung von GonzoCity ergeben.",
+          "maxLiability": "Unsere Gesamthaftung, ob aus Vertrag, unerlaubter Handlung oder anderweitig, ist auf den von Ihnen für das betreffende Abonnement gezahlten Betrag beschränkt."
+        }
+      },
+      "section8": {
+        "title": "8. Kündigung und Sperrung",
+        "byCompany": {
+          "label": "Kündigung durch GapLabs",
+          "text": "Wir behalten uns das Recht vor, Ihr Konto zu sperren oder zu kündigen, wenn Sie Ihre Abonnementgebühr nicht zahlen oder anderweitig gegen diese Bedingungen verstoßen."
+        },
+        "byUser": {
+          "label": "Kündigung durch den Nutzer",
+          "text": "Nutzer können ihr Konto jederzeit löschen. Bitte beachten Sie, dass das Löschen Ihres Kontos zur unwiderruflichen Löschung aller zugehörigen Daten führt."
+        }
+      },
+      "section9": {
+        "title": "9. Streitbeilegung und geltendes Recht",
+        "resolution": {
+          "label": "Streitbeilegung",
+          "text": "Alle Streitigkeiten, die sich aus oder im Zusammenhang mit diesen Bedingungen ergeben, werden durch allgemeine Streitbeilegungsmechanismen gelöst, zu denen Verhandlungen, Mediation oder, falls erforderlich, rechtliche Verfahren gehören können."
+        },
+        "governingLaw": {
+          "label": "Geltendes Recht und Gerichtsstand",
+          "law": "Diese Bedingungen unterliegen dem Recht der Bundesrepublik Deutschland und werden nach diesem ausgelegt.",
+          "jurisdiction": "Ausschließlicher Gerichtsstand für alle Rechtsstreitigkeiten aus oder im Zusammenhang mit diesen Bedingungen sind die Gerichte in Deutschland."
+        }
+      },
+      "section10": {
+        "title": "10. Änderungen der Bedingungen",
+        "updates": {
+          "label": "Aktualisierungen",
+          "text": "GapLabs kann diese Bedingungen von Zeit zu Zeit aktualisieren. Es liegt in Ihrer Verantwortung, die Bedingungen regelmäßig durch Besuch unserer Website zu überprüfen."
+        },
+        "continuedUse": {
+          "label": "Fortgesetzte Nutzung",
+          "text": "Ihre fortgesetzte Nutzung von GonzoCity nach Änderungen der Bedingungen stellt Ihre Annahme der überarbeiteten Bedingungen dar."
+        }
+      },
+      "section11": {
+        "title": "11. Freistellung und höhere Gewalt",
+        "indemnify": {
+          "label": "Freistellung",
+          "text": "Sie stimmen zu, GapLabs und seine verbundenen Unternehmen von allen Ansprüchen, Schäden, Verbindlichkeiten, Kosten oder Ausgaben freizustellen, zu verteidigen und schadlos zu halten, die sich aus Ihrer Nutzung von GonzoCity oder Ihrem Verstoß gegen diese Bedingungen ergeben."
+        },
+        "forceMajeure": {
+          "label": "Höhere Gewalt",
+          "text": "GapLabs haftet nicht für die Nichterfüllung seiner Verpflichtungen aus diesen Bedingungen, wenn diese Nichterfüllung auf Umstände zurückzuführen ist, die außerhalb seiner zumutbaren Kontrolle liegen, einschließlich, aber nicht beschränkt auf, höhere Gewalt, Krieg oder andere Ereignisse höherer Gewalt."
+        }
+      },
+      "section12": {
+        "title": "12. Integration mit anderen Richtlinien",
+        "content": "Unsere Nutzungsbedingungen sind in unsere umfassenderen Richtlinien integriert und sind Teil davon, einschließlich, aber nicht beschränkt auf unsere Datenschutzrichtlinie. Durch die Nutzung von GonzoCity erkennen Sie an und stimmen zu, auch an diese Richtlinien gebunden zu sein."
+      },
+      "section13": {
+        "title": "13. Kontaktinformationen",
+        "description": "Bei Fragen zu diesen Bedingungen kontaktieren Sie uns bitte unter:",
+        "company": "GapLabs GmbH",
+        "address": {
+          "street": "Mühlenstraße 21",
+          "city": "26419 Schortens",
+          "country": "Deutschland"
+        },
+        "email": {
+          "label": "E-Mail",
+          "content": "info@gaplabs.de"
+        },
+        "phone": {
+          "label": "Telefon",
+          "content": "+49 17655044671"
+        }
+      }
+    }
+  },
+  "privacyPolicy": {
+    "title": "Datenschutzerklärung",
+    "sections": {
+      "section1": {
+        "title": "Wer wir sind",
+        "content": {
+          "websiteAddress": "Unsere Website-Adresse lautet: https://gonzocity.com."
+        }
+      },
+      "section2": {
+        "title": "Kommentare",
+        "content": {
+          "dataCollection": "Wenn Besucher Kommentare auf der Website hinterlassen, sammeln wir die Daten, die im Kommentarformular angezeigt werden, sowie die IP-Adresse des Besuchers und den User-Agent-String des Browsers, um die Erkennung von Spam zu unterstützen.",
+          "gravatarInfo": "Eine anonymisierte Zeichenfolge, die aus Ihrer E-Mail-Adresse erstellt wird (auch Hash genannt), kann dem Gravatar-Dienst bereitgestellt werden, um zu überprüfen, ob Sie diesen benutzen. Die Datenschutzerklärung des Gravatar-Dienstes finden Sie hier: https://automattic.com/privacy/. Nach der Freigabe Ihres Kommentars ist Ihr Profilbild öffentlich im Kontext Ihres Kommentars sichtbar."
+        }
+      },
+      "section3": {
+        "title": "Medien",
+        "content": {
+          "exifWarning": "Wenn Sie als registrierter Benutzer Bilder auf die Website hochladen, sollten Sie vermeiden, Bilder mit eingebetteten Standortdaten (EXIF GPS) hochzuladen. Besucher der Website können alle Standortdaten von Bildern auf der Website herunterladen und extrahieren."
+        }
+      },
+      "section4": {
+        "title": "Cookies",
+        "content": {
+          "commentCookies": "Wenn Sie einen Kommentar auf unserer Website hinterlassen, können Sie sich dafür entscheiden, Ihren Namen, Ihre E-Mail-Adresse und Ihre Website in Cookies zu speichern. Dies dient Ihrer Bequemlichkeit, damit Sie Ihre Daten nicht erneut eingeben müssen, wenn Sie einen weiteren Kommentar hinterlassen. Diese Cookies haben eine Lebensdauer von einem Jahr.",
+          "loginCookies": "Wenn Sie ein Konto haben und sich auf dieser Website anmelden, werden wir ein temporäres Cookie setzen, um festzustellen, ob Ihr Browser Cookies akzeptiert. Dieses Cookie enthält keine personenbezogenen Daten und wird verworfen, wenn Sie Ihren Browser schließen.",
+          "authCookies": "Wenn Sie sich anmelden, werden wir mehrere Cookies einrichten, um Ihre Anmeldeinformationen und Ihre Bildschirmdarstellungsoptionen zu speichern. Anmelde-Cookies haben eine Lebensdauer von zwei Tagen, und Cookies für die Bildschirmoptionen haben eine Lebensdauer von einem Jahr. Wenn Sie 'Angemeldet bleiben' auswählen, wird Ihre Anmeldung zwei Wochen lang aufrechterhalten. Wenn Sie sich von Ihrem Konto abmelden, werden die Anmelde-Cookies gelöscht.",
+          "editingCookies": "Wenn Sie einen Artikel bearbeiten oder veröffentlichen, wird ein zusätzlicher Cookie in Ihrem Browser gespeichert. Dieser Cookie enthält keine personenbezogenen Daten und verweist nur auf die Beitrags-ID des Artikels, den Sie gerade bearbeitet haben. Der Cookie verfällt nach einem Tag."
+        }
+      },
+      "section5": {
+        "title": "Eingebettete Inhalte von anderen Websites",
+        "content": {
+          "behavior": "Beiträge auf dieser Website können eingebettete Inhalte enthalten (z.B. Videos, Bilder, Artikel usw.). Eingebettete Inhalte von anderen Websites verhalten sich genauso, als ob der Besucher die andere Website besucht hätte.",
+          "dataCollection": "Diese Websites können Daten über Sie sammeln, Cookies verwenden, zusätzliche Tracking-Dienste von Dritten einbetten und Ihre Interaktion mit diesem eingebetteten Inhalt aufzeichnen, einschließlich der Verfolgung Ihrer Interaktion mit dem eingebetteten Inhalt, wenn Sie ein Konto haben und auf dieser Website angemeldet sind."
+        }
+      },
+      "section6": {
+        "title": "Mit wem wir Ihre Daten teilen",
+        "content": {
+          "passwordReset": "Wenn Sie ein Passwort-Reset anfordern, wird Ihre IP-Adresse in der Reset-E-Mail enthalten sein."
+        }
+      },
+      "section7": {
+        "title": "Wie lange wir Ihre Daten speichern",
+        "content": {
+          "userProfiles": "Für Benutzer, die sich auf unserer Website registrieren, speichern wir zusätzlich die persönlichen Informationen, die sie in ihrem Benutzerprofil angeben. Alle Benutzer können jederzeit ihre persönlichen Informationen einsehen, verändern oder löschen (außer sie können ihren Benutzernamen nicht ändern). Administratoren der Website können diese Informationen ebenfalls einsehen und verändern."
+        }
+      },
+      "section8": {
+        "title": "Welche Rechte Sie an Ihren Daten haben",
+        "content": {
+          "exportDelete": "Wenn Sie ein Konto auf dieser Website haben oder Kommentare hinterlassen haben, können Sie einen Export Ihrer personenbezogenen Daten bei uns anfordern, einschließlich aller Daten, die Sie uns mitgeteilt haben. Darüber hinaus können Sie die Löschung aller personenbezogenen Daten, die wir von Ihnen gespeichert haben, beantragen. Dies umfasst nicht die Daten, die wir aufgrund administrativer, rechtlicher oder sicherheitsrelevanter Notwendigkeiten aufbewahren müssen."
+        }
+      },
+      "section9": {
+        "title": "Wohin wir Ihre Daten senden",
+        "content": {
+          "spamCheck": "Besucher-Kommentare können durch einen automatisierten Spam-Erkennungsdienst geprüft werden."
+        }
+      }
+    }
+  },
+  "legalNotice": {
+    "title": "Impressum",
+    "address": {
+      "label": "Adresse",
+      "name": "Marc Lütke",
+      "street": "Mühlenstraße 21",
+      "city": "26419 Schortens",
+      "country": "Deutschland"
+    },
+    "contact": {
+      "label": "Kontakt",
+      "email": "info@gaplabs.de",
+      "phone": "+49 17655044671"
+    },
+    "disclaimer": {
+      "label": "Haftungsausschluss",
+      "content": "Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich."
+    }
+  }
+}
