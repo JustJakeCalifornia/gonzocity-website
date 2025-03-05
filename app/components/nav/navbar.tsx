@@ -205,12 +205,12 @@ export function Navbar() {
 
         {/* Desktop Auth Buttons */}
         <div className="hidden items-center gap-2 md:flex">
-          <Link
-            href="/login"
-            className="rounded-md px-4 py-2 text-sm font-medium text-gray-700 hover:text-black"
+          <Button
+            className="rounded-md bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100 border border-gray-200"
+            asChild
           >
-            Log in
-          </Link>
+            <Link href="/login">Log in</Link>
+          </Button>
           <Button
             className="rounded-md bg-black px-4 py-2 text-sm font-medium text-white hover:bg-gray-800"
             asChild
