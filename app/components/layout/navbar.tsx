@@ -186,10 +186,10 @@ export function Navbar() {
                 Pricing
               </Link>
               <div className="flex items-center gap-1 px-2">
-                <Button variant="login" asChild>
+                <Button variant="secondary" asChild>
                   <Link href="/login">Log in</Link>
                 </Button>
-                <Button variant="signup" asChild>
+                <Button asChild>
                   <Link href="/signup">Sign up</Link>
                 </Button>
               </div>
@@ -199,10 +199,10 @@ export function Navbar() {
 
         {/* Desktop Auth Buttons */}
         <div className="hidden items-center gap-2 md:flex">
-          <Button variant="login" asChild>
+          <Button variant="secondary" asChild>
             <Link href="/login">Log in</Link>
           </Button>
-          <Button variant="signup" asChild>
+          <Button asChild>
             <Link href="/signup">Sign up</Link>
           </Button>
         </div>
