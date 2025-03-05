@@ -36,7 +36,7 @@ export function Navbar() {
               fill="#000000"
             />
           </svg>
-          <span className="ml-2 text-xl font-semibold">dub</span>
+          <span className="ml-2 text-xl font-semibold">GonzoCity</span>
         </Link>
 
         {/* Desktop Navigation */}
