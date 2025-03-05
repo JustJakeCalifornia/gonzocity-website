@@ -1,9 +1,13 @@
+import { PartnersSection } from "@/components/layout/sections/partners"
 import HeroSection from "../../components/layout/sections/hero"
 
 export default function Home() {
   return (
-    <>
-      <HeroSection />
-    </>
+    <div className="flex-1 bg-gradient-to-b from-white to-gray-50 p-8">
+      <div className="mx-auto max-w-4xl text-center">
+        <HeroSection />
+        <PartnersSection />
+      </div>
+    </div>
   )
 }
