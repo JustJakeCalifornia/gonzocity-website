@@ -4,7 +4,7 @@ import {
   IconEaseInOut,
   IconTerminal2,
 } from "@tabler/icons-react"
-import { FeatureGrid, FeatureItem } from "../grids/FeatureGrid"
+import { FeatureGrid, FeatureItem } from "../grids/feature-grid"
 
 const items: FeatureItem[] = [
   {
@@ -62,7 +62,7 @@ const FeaturesSection = () => {
           </p>
         </div>
       </div>
-      <FeatureGrid features={items} />
+      <FeatureGrid items={items} />
     </section>
   )
 }

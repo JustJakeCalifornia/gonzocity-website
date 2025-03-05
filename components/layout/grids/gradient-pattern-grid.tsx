@@ -16,12 +16,12 @@ export function GradientPatternGrid({
   className = "",
 }: GradientPatternItemGridProps) {
   return (
-    <div className={`py-20 lg:py-40 ${className}`}>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 md:gap-2 max-w-7xl mx-auto">
+    <div className={`py-16 sm:py-24 lg:py-32 ${className}`}>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {items.map((item) => (
           <div
             key={item.title}
-            className="relative bg-gradient-to-b dark:from-neutral-900 from-neutral-100 dark:to-neutral-950 to-white p-6 rounded-3xl overflow-hidden"
+            className="relative bg-gradient-to-b dark:from-neutral-900 from-neutral-100 dark:to-neutral-950 to-white p-6 rounded-3xl overflow-hidden hover:shadow-lg transition-all duration-300"
           >
             <PatternOverlay size={20} />
             <p className="text-base font-bold text-neutral-800 dark:text-white relative z-20">

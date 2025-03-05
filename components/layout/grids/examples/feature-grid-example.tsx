@@ -1,4 +1,4 @@
-import { FeatureGrid, FeatureItem } from "../FeatureGrid"
+import { FeatureGrid, FeatureItem } from "../feature-grid"
 import {
   IconAdjustmentsBolt,
   IconCloud,
@@ -12,7 +12,7 @@ import {
 
 export function FeatureGridExample() {
   // Sample features data that can be passed to the FeatureGrid component
-  const features: FeatureItem[] = [
+  const items: FeatureItem[] = [
     {
       title: "Built for developers",
       description:
@@ -63,7 +63,7 @@ export function FeatureGridExample() {
   return (
     <section className="py-20">
       <h2 className="text-3xl font-bold text-center mb-12">Our Features</h2>
-      <FeatureGrid features={features} />
+      <FeatureGrid items={items} />
     </section>
   )
 }
