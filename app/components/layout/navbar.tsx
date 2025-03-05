@@ -185,17 +185,11 @@ export function Navbar() {
               >
                 Pricing
               </Link>
-              <div className="flex flex-col gap-2 px-6 pt-2">
-                <Link
-                  href="/login"
-                  className="w-full rounded-md px-4 py-2 text-center text-sm font-medium text-gray-700 hover:text-black"
-                >
-                  Log in
-                </Link>
-                <Button
-                  className="w-full rounded-md bg-black px-4 py-2 text-sm font-medium text-white hover:bg-gray-800"
-                  asChild
-                >
+              <div className="flex items-center gap-1 px-2">
+                <Button variant="login" asChild>
+                  <Link href="/login">Log in</Link>
+                </Button>
+                <Button variant="signup" asChild>
                   <Link href="/signup">Sign up</Link>
                 </Button>
               </div>
@@ -205,16 +199,10 @@ export function Navbar() {
 
         {/* Desktop Auth Buttons */}
         <div className="hidden items-center gap-2 md:flex">
-          <Button
-            className="rounded-md bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100 border border-gray-200"
-            asChild
-          >
+          <Button variant="login" asChild>
             <Link href="/login">Log in</Link>
           </Button>
-          <Button
-            className="rounded-md bg-black px-4 py-2 text-sm font-medium text-white hover:bg-gray-800"
-            asChild
-          >
+          <Button variant="signup" asChild>
             <Link href="/signup">Sign up</Link>
           </Button>
         </div>
