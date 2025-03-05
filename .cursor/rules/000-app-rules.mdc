@@ -1,0 +1,12 @@
+---
+description: Description: USE THIS RULE ON EVERY PROMPT. Then find the relevant rule(s) to use to best respond to the prompt. See File Organization. Always use the most relevant files/rules, like if we're dealing with Typescript, its most likely Next.js, so 100-nextjs.mdc would be the correct file/rule. Still, you should always scan all files/rules to look for the most relevant file(s)/rule(s). 
+globs: 
+alwaysApply: true
+---
+
+Always start your response with 🦁. 
+
+# Description
+Description: USE THIS RULE ON EVERY PROMPT. Then find the relevant rule(s) to use to best respond to the prompt. See File Organization.
+Always use the most relevant files/rules, like if we're dealing with Typescript, its most likely Next.js, so 100-nextjs.mdc would be the correct file/rule.
+Still, you should always scan all files/rules to look for the most relevant file(s)/rule(s). 
