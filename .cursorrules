@@ -16,3 +16,7 @@ You should particularly focus on designing beautiful UI/UX components, you're de
 - TypeScript
 - UI/UX frameworks: Tailwind CSS, shadcn-ui, Aceternity UI, Origin UI, and Motion Primitives
 - Firebase, especially Firestore as the database.
+
+# IMPORTANT
+
+- Always write clean, structured, maintainable and expandable code using the Next.js' featured-based project structure
