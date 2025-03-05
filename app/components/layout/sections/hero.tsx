@@ -9,21 +9,44 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel"
 import Image from "next/image"
+import { Button } from "@/components/ui/button"
+import { CheckCircle } from "lucide-react"
 
 const HeroSection = () => {
   return (
     <div className="flex-1 bg-gradient-to-b from-white to-gray-50 p-8">
       <div className="mx-auto max-w-4xl text-center">
         <h1 className="mt-20 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
-          Transform Municipal Operations with Real-Time Efficiency
+          Transform Municipal Operations with{" "}
+          <span className="text-brand">Real-Time</span> Efficiency
         </h1>
         <p className="mx-auto mt-6 max-w-md text-lg text-gray-500 sm:max-w-xl">
           GonzoCity is a municipal asset management software for modern
           municipal operations.
         </p>
 
+        <div className="flex justify-center mt-8 space-x-4">
+          <Button variant="default">Get Started</Button>
+          <Button variant="secondary">Download iOS app</Button>
+        </div>
+
+        <div className="animate-slide-up animation-delay-300 flex items-center justify-center gap-4 mt-6">
+          <div className="flex items-center gap-1">
+            <CheckCircle className="h-4 w-4 text-green-500" />
+            <span className="text-sm text-neutral-500">Real-time updates</span>
+          </div>
+          <div className="flex items-center gap-1">
+            <CheckCircle className="h-4 w-4 text-green-500" />
+            <span className="text-sm text-neutral-500">Secure data</span>
+          </div>
+          <div className="flex items-center gap-1">
+            <CheckCircle className="h-4 w-4 text-green-500" />
+            <span className="text-sm text-neutral-500">Mobile friendly</span>
+          </div>
+        </div>
+
         {/* Tabs and Carousel Feature */}
-        <div className="mt-12">
+        <div className="mt-20">
           <Tabs defaultValue="ios-app" className="w-full">
             <TabsList className="grid w-full max-w-md mx-auto grid-cols-2">
               <TabsTrigger value="ios-app">iOS App</TabsTrigger>
