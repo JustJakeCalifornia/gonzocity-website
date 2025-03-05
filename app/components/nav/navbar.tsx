@@ -2,6 +2,7 @@
 
 import * as React from "react"
 import Link from "next/link"
+import { Menu } from "lucide-react"
 
 import {
   NavigationMenu,
@@ -12,12 +13,13 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 
 export function Navbar() {
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-gray-100 bg-white">
+    <header className="sticky top-0 z-50 w-full bg-white">
       <div className="flex h-16 items-center justify-between max-w-7xl mx-auto px-5 sm:px-8">
         {/* Logo */}
         <Link href="/" className="flex items-center">
@@ -37,7 +39,7 @@ export function Navbar() {
           <span className="ml-2 text-xl font-semibold">dub</span>
         </Link>
 
-        {/* Main Navigation */}
+        {/* Desktop Navigation */}
         <NavigationMenu className="hidden md:flex">
           <NavigationMenuList>
             <NavigationMenuItem>
@@ -143,25 +145,65 @@ export function Navbar() {
           </NavigationMenuList>
         </NavigationMenu>
 
-        {/* Mobile Menu Button */}
-        <button className="flex items-center md:hidden">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-6 w-6"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M4 6h16M4 12h16M4 18h16"
-            />
-          </svg>
-        </button>
+        {/* Mobile Menu */}
+        <Sheet>
+          <SheetTrigger asChild className="md:hidden">
+            <Button variant="ghost" size="icon" className="h-6 w-6 p-0">
+              <Menu className="h-6 w-6" />
+              <span className="sr-only">Toggle menu</span>
+            </Button>
+          </SheetTrigger>
+          <SheetContent side="right" className="w-[300px] sm:w-[400px] px-0">
+            <nav className="flex flex-col gap-4">
+              <Link
+                href="/"
+                className="border-b border-gray-100 px-6 py-4 text-sm font-medium text-gray-700 hover:text-black"
+              >
+                Product
+              </Link>
+              <Link
+                href="/"
+                className="border-b border-gray-100 px-6 py-4 text-sm font-medium text-gray-700 hover:text-black"
+              >
+                Resources
+              </Link>
+              <Link
+                href="/"
+                className="border-b border-gray-100 px-6 py-4 text-sm font-medium text-gray-700 hover:text-black"
+              >
+                Company
+              </Link>
+              <Link
+                href="/"
+                className="border-b border-gray-100 px-6 py-4 text-sm font-medium text-gray-700 hover:text-black"
+              >
+                Enterprise
+              </Link>
+              <Link
+                href="/"
+                className="border-b border-gray-100 px-6 py-4 text-sm font-medium text-gray-700 hover:text-black"
+              >
+                Pricing
+              </Link>
+              <div className="flex flex-col gap-2 px-6 pt-2">
+                <Link
+                  href="/login"
+                  className="w-full rounded-md px-4 py-2 text-center text-sm font-medium text-gray-700 hover:text-black"
+                >
+                  Log in
+                </Link>
+                <Button
+                  className="w-full rounded-md bg-black px-4 py-2 text-sm font-medium text-white hover:bg-gray-800"
+                  asChild
+                >
+                  <Link href="/signup">Sign up</Link>
+                </Button>
+              </div>
+            </nav>
+          </SheetContent>
+        </Sheet>
 
-        {/* Auth Buttons */}
+        {/* Desktop Auth Buttons */}
         <div className="hidden items-center gap-2 md:flex">
           <Link
             href="/login"
