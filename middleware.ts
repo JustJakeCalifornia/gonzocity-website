@@ -18,6 +18,20 @@ function getLocale(request: Request) {
 export default function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl
 
+  // Skip middleware for static files
+  // This will allow direct access to images and other static assets
+  if (
+    pathname.includes(".svg") ||
+    pathname.includes(".jpg") ||
+    pathname.includes(".jpeg") ||
+    pathname.includes(".png") ||
+    pathname.includes(".gif") ||
+    pathname.includes(".ico") ||
+    pathname.includes(".webp")
+  ) {
+    return NextResponse.next()
+  }
+
   // Check if a locale is already in the pathname
   const pathnameHasLocale = locales.some(
     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`

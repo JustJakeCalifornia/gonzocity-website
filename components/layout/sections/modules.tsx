@@ -1,57 +1,54 @@
-import ModulesBentoGrid from "@/components/ui/modules-bento-grid"
-import { NewModule } from "@/components/ui/module-card"
-
-const MODULES = [
-  {
-    title: "Gully Management",
-    newModule: NewModule.NO,
-    description:
-      "Track and manage gullies with precise location data, maintenance history, and real-time status updates.",
-    logo: "/gullygonzo.jpg",
-  },
-  //   {
-  //     title: "Street Light Inventory",
-  //     newModule: NewModule.YES,
-  //     description:
-  //       "Monitor street light conditions, power usage, and maintenance schedules across your entire municipality.",
-  //     logo: "/globe.svg",
-  //   },
-  {
-    title: "Tree Registry",
-    newModule: NewModule.NO,
-    description:
-      "Document and manage urban forestry with details on species, health status, and maintenance requirements.",
-    logo: "/parkgonzo.jpg",
-  },
-  {
-    title: "Waste Management",
-    newModule: NewModule.NO,
-    description:
-      "Optimize garbage collection routes and monitor bin statuses throughout your municipality.",
-    logo: "/ratgonzo.jpg",
-  },
-  {
-    title: "Road Condition Tracking",
-    newModule: NewModule.YES,
-    description:
-      "Monitor road quality, identify maintenance needs, and track repair history with precision GPS mapping.",
-    logo: "/streetgonzo.jpg",
-  },
-  //   {
-  //     title: "Park Asset Management",
-  //     newModule: NewModule.NO,
-  //     description:
-  //       "Inventory and track maintenance for all park amenities, from benches to playground equipment.",
-  //     logo: "/window.svg",
-  //   },
-  //   {
-  //     title: "Analytics Dashboard",
-  //     newModule: NewModule.YES,
-  //     description:
-  //       "Get comprehensive insights with data visualization tools for all your municipal assets and operations.",
-  //     logo: "/file.svg",
-  //   },
-]
+// const MODULES = [
+//   {
+//     title: "Gully Management",
+//     newModule: NewModule.NO,
+//     description:
+//       "Track and manage gullies with precise location data, maintenance history, and real-time status updates.",
+//     logo: "/gullygonzo.jpg",
+//   },
+//     {
+//       title: "Street Light Inventory",
+//       newModule: NewModule.YES,
+//       description:
+//         "Monitor street light conditions, power usage, and maintenance schedules across your entire municipality.",
+//       logo: "/globe.svg",
+//     },
+//   {
+//     title: "Tree Registry",
+//     newModule: NewModule.NO,
+//     description:
+//       "Document and manage urban forestry with details on species, health status, and maintenance requirements.",
+//     logo: "/parkgonzo.jpg",
+//   },
+//   {
+//     title: "Waste Management",
+//     newModule: NewModule.NO,
+//     description:
+//       "Optimize garbage collection routes and monitor bin statuses throughout your municipality.",
+//     logo: "/ratgonzo.jpg",
+//   },
+//   {
+//     title: "Road Condition Tracking",
+//     newModule: NewModule.YES,
+//     description:
+//       "Monitor road quality, identify maintenance needs, and track repair history with precision GPS mapping.",
+//     logo: "/streetgonzo.jpg",
+//   },
+//     {
+//       title: "Park Asset Management",
+//       newModule: NewModule.NO,
+//       description:
+//         "Inventory and track maintenance for all park amenities, from benches to playground equipment.",
+//       logo: "/window.svg",
+//     },
+//     {
+//       title: "Analytics Dashboard",
+//       newModule: NewModule.YES,
+//       description:
+//         "Get comprehensive insights with data visualization tools for all your municipal assets and operations.",
+//       logo: "/file.svg",
+//     },
+// ]
 
 const ModulesSection = () => {
   return (
@@ -71,7 +68,7 @@ const ModulesSection = () => {
           </p>
         </div>
 
-        <ModulesBentoGrid items={MODULES} />
+        {/* <ModulesBentoGrid items={MODULES} /> */}
       </div>
     </section>
   )
