@@ -11,11 +11,12 @@ enum NewModule {
 }
 
 interface ModuleProps {
-  id: string
+  id: number
   title: string
   newModule: NewModule
   description: string
   logo: string
+  color: string
 }
 
 const variants = {
@@ -30,37 +31,40 @@ const variants = {
 const ModulesSection = () => {
   const modules: ModuleProps[] = [
     {
-      id: "rat-gonzo",
+      id: 1,
       title: "Asset Management",
       newModule: NewModule.YES,
       description:
         "Effortlessly track and manage municipal assets with our intuitive interface.",
       logo: "/ratgonzo.jpg",
+      color: "#FB5755",
     },
     {
-      id: "street-gonzo",
+      id: 2,
       title: "Asset Management",
       newModule: NewModule.NO,
       description:
         "Effortlessly track and manage municipal assets with our intuitive interface.",
       logo: "/streetgonzo.jpg",
+      color: "#ffc414",
     },
     {
-      id: "park-gonzo",
+      id: 3,
       title: "Asset Management",
       newModule: NewModule.NO,
       description:
         "Effortlessly track and manage municipal assets with our intuitive interface.",
       logo: "/parkgonzo.jpg",
+      color: "#00ccb1",
     },
-
     {
-      id: "gully-gonzo",
+      id: 4,
       title: "Asset Management",
       newModule: NewModule.YES,
       description:
         "Effortlessly track and manage municipal assets with our intuitive interface.",
       logo: "/gullygonzo.jpg",
+      color: "#B8FD7B",
     },
   ]
 
@@ -83,12 +87,18 @@ const ModulesSection = () => {
 
       {/* Modules grid */}
       <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-6 container px-4 mx-auto">
-        {modules.map(({ id, title, description, newModule, logo }) => (
+        {modules.map(({ id, title, description, newModule, logo, color }) => (
           <div key={id} className="relative p-[4px] group">
             {/* Blur layer */}
             <motion.div
-              className="absolute inset-0 rounded-3xl z-[1] opacity-40 group-hover:opacity-70 blur-md transition duration-500 will-change-transform bg-[radial-gradient(circle_farthest-side_at_0_100%,#00ccb1,transparent),radial-gradient(circle_farthest-side_at_100%_0,#7b61ff,transparent),radial-gradient(circle_farthest-side_at_100%_100%,#ffc414,transparent),radial-gradient(circle_farthest-side_at_0_0,#1ca0fb,#141316)]"
-              style={{ backgroundSize: "200% 200%" }}
+              className="absolute inset-0 rounded-3xl z-[1] opacity-40 group-hover:opacity-90 blur-md transition duration-500 will-change-transform"
+              style={{
+                backgroundSize: "200% 200%",
+                background: `radial-gradient(circle farthest-side at 0 100%,${color}60,transparent),
+                            radial-gradient(circle farthest-side at 100% 0,${color}80,transparent),
+                            radial-gradient(circle farthest-side at 100% 100%,${color}60,transparent),
+                            radial-gradient(circle farthest-side at 0 0,${color}80,transparent)`,
+              }}
               variants={variants}
               initial="initial"
               animate="animate"
@@ -99,9 +109,15 @@ const ModulesSection = () => {
               }}
             />
 
-            {/* Sharp border layer - reduced opacity */}
+            {/* Sharp border layer */}
             <motion.div
-              style={{ backgroundSize: "200% 200%" }}
+              style={{
+                backgroundSize: "200% 200%",
+                background: `radial-gradient(circle farthest-side at 0 100%,${color}60,transparent),
+                            radial-gradient(circle farthest-side at 100% 0,${color}80,transparent),
+                            radial-gradient(circle farthest-side at 100% 100%,${color}60,transparent),
+                            radial-gradient(circle farthest-side at 0 0,${color}80,transparent)`,
+              }}
               variants={variants}
               initial="initial"
               animate="animate"
@@ -110,7 +126,7 @@ const ModulesSection = () => {
                 repeat: Infinity,
                 repeatType: "reverse",
               }}
-              className="absolute inset-0 rounded-3xl z-[1] opacity-70 will-change-transform bg-[radial-gradient(circle_farthest-side_at_0_100%,#00ccb1,transparent),radial-gradient(circle_farthest-side_at_100%_0,#7b61ff,transparent),radial-gradient(circle_farthest-side_at_100%_100%,#ffc414,transparent),radial-gradient(circle_farthest-side_at_0_0,#1ca0fb,#141316)]"
+              className="absolute inset-0 rounded-3xl z-[1] opacity-70 group-hover:opacity-90 will-change-transform"
             />
 
             <Card className="relative z-10 rounded-[20px] bg-background">
