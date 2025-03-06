@@ -2,6 +2,7 @@ import { PartnersSection } from "@/components/layout/sections/partners"
 import HeroSection from "../../components/layout/sections/hero"
 import BenefitsSection from "@/components/layout/sections/benefits"
 import FeaturesSection from "@/components/layout/sections/features"
+import ModulesSection from "@/components/layout/sections/modules"
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <PartnersSection />
         <BenefitsSection />
         <FeaturesSection />
+        <ModulesSection />
       </div>
     </div>
   )
