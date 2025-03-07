@@ -2,7 +2,7 @@
 
 import { Badge } from "@/components/ui/badge"
 import { CardContent } from "@/components/ui/card"
-import { GradientBorderCard } from "@/components/ui/gradient-border-card"
+import { GradientBorderCard } from "@/components/ui/cards/gradient-border-card"
 import Image from "next/image"
 
 enum NewModule {

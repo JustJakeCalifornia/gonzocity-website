@@ -1,6 +1,6 @@
 import { motion } from "framer-motion"
 import { cn } from "@/lib/utils"
-import { Card } from "./card"
+import { Card } from "../card"
 
 const variants = {
   initial: {

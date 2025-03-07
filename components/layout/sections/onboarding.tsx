@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import { LucideIcon, SendHorizonal, ArrowRight } from "lucide-react"
+import { GradientBorderCard } from "@/components/ui/cards/gradient-border-card"
 
 const OnboardingCard = ({
   step,
@@ -19,7 +20,10 @@ const OnboardingCard = ({
   onClick?: () => void
 }) => {
   return (
-    <div className="group relative flex-1 rounded-3xl bg-white p-8 shadow-sm ring-1 ring-neutral-200 transition-all duration-300 hover:shadow-lg hover:ring-brand/20">
+    <GradientBorderCard
+      gradientColor="#0096FF"
+      className="group h-full bg-white p-8 flex flex-col items-center text-center"
+    >
       <div className="mb-4 inline-flex h-10 w-10 items-center justify-center rounded-full bg-brand/10">
         <span className="text-sm font-medium text-brand">{step}</span>
       </div>
@@ -35,7 +39,7 @@ const OnboardingCard = ({
           {ButtonIcon && <ButtonIcon className="ml-2 h-4 w-4" />}
         </Button>
       )}
-    </div>
+    </GradientBorderCard>
   )
 }
 
