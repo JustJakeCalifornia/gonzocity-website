@@ -3,6 +3,8 @@
 import { Button } from "@/components/ui/button"
 import { LucideIcon, SendHorizonal, ArrowRight } from "lucide-react"
 import { GradientBorderCard } from "@/components/ui/cards/gradient-border-card"
+import ContactDialog from "@/components/dialogs/contact-dialog"
+import { useState } from "react"
 
 const OnboardingCard = ({
   step,
@@ -44,13 +46,14 @@ const OnboardingCard = ({
 }
 
 const OnboardingSection = () => {
+  const [isContactDialogOpen, setIsContactDialogOpen] = useState(false)
+
   const handleViewModules = () => {
     document.getElementById("modules")?.scrollIntoView()
   }
 
   const handleRequestDemo = () => {
-    // For now, this does nothing as requested
-    console.log("Request demo")
+    setIsContactDialogOpen(true)
   }
 
   return (
@@ -94,6 +97,10 @@ const OnboardingSection = () => {
           description="Schedule a convenient date for system deployment and comprehensive on-site training for your team"
         />
       </div>
+      <ContactDialog
+        open={isContactDialogOpen}
+        onOpenChange={setIsContactDialogOpen}
+      />
     </section>
   )
 }

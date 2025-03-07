@@ -11,8 +11,12 @@ import {
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { CheckCircle } from "lucide-react"
+import ContactDialog from "@/components/dialogs/contact-dialog"
+import { useState } from "react"
 
 const HeroSection = () => {
+  const [isContactDialogOpen, setIsContactDialogOpen] = useState(false)
+
   return (
     // <div className="flex-1 bg-gradient-to-b from-white to-gray-50 p-8">
     //   <div className="mx-auto max-w-4xl text-center">
@@ -27,8 +31,17 @@ const HeroSection = () => {
       </p>
 
       <div className="flex justify-center mt-8 space-x-4">
-        <Button variant="default">Get Started</Button>
-        <Button variant="secondary">Download iOS app</Button>
+        <ContactDialog
+          open={isContactDialogOpen}
+          onOpenChange={setIsContactDialogOpen}
+        >
+          <Button variant="default">Get Started</Button>
+        </ContactDialog>
+        <Button variant="secondary">
+          <a href="https://apps.apple.com/us/app/id1619621325" target="_blank">
+            Download iOS app
+          </a>
+        </Button>
       </div>
 
       <div className="animate-slide-up animation-delay-300 flex items-center justify-center gap-4 mt-6">

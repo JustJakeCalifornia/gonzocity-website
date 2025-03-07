@@ -94,10 +94,6 @@ const DesktopNav = () => (
 const MobileNav = () => {
   const [isContactDialogOpen, setIsContactDialogOpen] = useState(false)
 
-  const handleSignUp = () => {
-    setIsContactDialogOpen(true)
-  }
-
   return (
     <>
       <Sheet>
@@ -122,15 +118,16 @@ const MobileNav = () => {
               <Button variant="secondary" asChild>
                 <Link href="/login">Log in</Link>
               </Button>
-              <Button onClick={handleSignUp}>Get Started</Button>
+              <ContactDialog
+                open={isContactDialogOpen}
+                onOpenChange={setIsContactDialogOpen}
+              >
+                <Button>Get Started</Button>
+              </ContactDialog>
             </div>
           </nav>
         </SheetContent>
       </Sheet>
-      <ContactDialog
-        open={isContactDialogOpen}
-        onOpenChange={setIsContactDialogOpen}
-      />
     </>
   )
 }
@@ -157,22 +154,19 @@ const Logo = () => (
 const AuthButtons = () => {
   const [isContactDialogOpen, setIsContactDialogOpen] = useState(false)
 
-  const handleSignUp = () => {
-    setIsContactDialogOpen(true)
-  }
-
   return (
     <>
       <div className="hidden items-center gap-2 md:flex">
         <Button variant="secondary" asChild>
           <Link href="/login">Log in</Link>
         </Button>
-        <Button onClick={handleSignUp}>Get Started</Button>
+        <ContactDialog
+          open={isContactDialogOpen}
+          onOpenChange={setIsContactDialogOpen}
+        >
+          <Button>Get Started</Button>
+        </ContactDialog>
       </div>
-      <ContactDialog
-        open={isContactDialogOpen}
-        onOpenChange={setIsContactDialogOpen}
-      />
     </>
   )
 }
