@@ -69,30 +69,30 @@ const OnboardingSection = () => {
             efficient city management
           </p>
         </div>
+      </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <OnboardingCard
-            step={1}
-            title="Try Out Demo"
-            description="Experience our solution firsthand. Request a demo through our contact form and see how it can transform your operations"
-            buttonText="Request Demo"
-            buttonIcon={SendHorizonal}
-            onClick={handleRequestDemo}
-          />
-          <OnboardingCard
-            step={2}
-            title="Select Modules"
-            description="Choose the specific modules that best fit your municipality or business needs after experiencing the demo"
-            buttonText="View Modules"
-            buttonIcon={ArrowRight}
-            onClick={handleViewModules}
-          />
-          <OnboardingCard
-            step={3}
-            title="Delivery & Training"
-            description="Schedule a convenient date for system deployment and comprehensive on-site training for your team"
-          />
-        </div>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
+        <OnboardingCard
+          step={1}
+          title="Try Out Demo"
+          description="Experience our solution firsthand. Request a demo through our contact form and see how it can transform your operations"
+          buttonText="Request Demo"
+          buttonIcon={SendHorizonal}
+          onClick={handleRequestDemo}
+        />
+        <OnboardingCard
+          step={2}
+          title="Select Modules"
+          description="Choose the specific modules that best fit your municipality or business needs after experiencing the demo"
+          buttonText="View Modules"
+          buttonIcon={ArrowRight}
+          onClick={handleViewModules}
+        />
+        <OnboardingCard
+          step={3}
+          title="Delivery & Training"
+          description="Schedule a convenient date for system deployment and comprehensive on-site training for your team"
+        />
       </div>
     </section>
   )

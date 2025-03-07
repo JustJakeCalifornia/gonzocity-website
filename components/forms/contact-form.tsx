@@ -126,7 +126,7 @@ export function ContactForm({ onSuccess }: ContactFormProps) {
             key={index}
             className={cn(
               "h-2 flex-1 rounded-full transition-colors",
-              index + 1 <= step ? "bg-primary" : "bg-muted"
+              index + 1 <= step ? "bg-brand" : "bg-muted"
             )}
           />
         ))}
@@ -248,9 +248,7 @@ export function ContactForm({ onSuccess }: ContactFormProps) {
                           type="button"
                           key={m.value}
                           variant={
-                            field.value?.includes(m.value)
-                              ? "default"
-                              : "outline"
+                            field.value?.includes(m.value) ? "brand" : "outline"
                           }
                           className="w-full"
                           onClick={() => {
@@ -308,11 +306,7 @@ export function ContactForm({ onSuccess }: ContactFormProps) {
             >
               {t("progress.previous")}
             </Button>
-            <Button
-              type="submit"
-              className={cn(step === totalSteps && "w-full")}
-              disabled={isSubmitting}
-            >
+            <Button type="submit" disabled={isSubmitting}>
               {step < totalSteps ? (
                 t("progress.next")
               ) : isSubmitting ? (
