@@ -17,6 +17,8 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import { NavigationConfig } from "@/config/navigation"
+import { useState } from "react"
+import ContactDialog from "../dialogs/contact-dialog"
 
 interface NavItemProps {
   item: (typeof NavigationConfig.mainNav)[number]
@@ -89,37 +91,49 @@ const DesktopNav = () => (
   </NavigationMenu>
 )
 
-const MobileNav = () => (
-  <Sheet>
-    <SheetTrigger asChild className="md:hidden">
-      <Button variant="ghost" size="icon" className="h-6 w-6 p-0">
-        <Menu className="h-6 w-6" />
-        <span className="sr-only">Toggle menu</span>
-      </Button>
-    </SheetTrigger>
-    <SheetContent side="right" className="w-[300px] sm:w-[400px] px-0">
-      <nav className="flex flex-col gap-4">
-        {NavigationConfig.mainNav.map((item) => (
-          <Link
-            key={item.title}
-            href={item.href}
-            className="border-b border-gray-100 px-6 py-4 text-sm font-medium text-gray-700 hover:text-black"
-          >
-            {item.title}
-          </Link>
-        ))}
-        <div className="flex items-center gap-1 px-2">
-          <Button variant="secondary" asChild>
-            <Link href="/login">Log in</Link>
+const MobileNav = () => {
+  const [isContactDialogOpen, setIsContactDialogOpen] = useState(false)
+
+  const handleSignUp = () => {
+    setIsContactDialogOpen(true)
+  }
+
+  return (
+    <>
+      <Sheet>
+        <SheetTrigger asChild className="md:hidden">
+          <Button variant="ghost" size="icon" className="h-6 w-6 p-0">
+            <Menu className="h-6 w-6" />
+            <span className="sr-only">Toggle menu</span>
           </Button>
-          <Button asChild>
-            <Link href="/signup">Sign up</Link>
-          </Button>
-        </div>
-      </nav>
-    </SheetContent>
-  </Sheet>
-)
+        </SheetTrigger>
+        <SheetContent side="right" className="w-[300px] sm:w-[400px] px-0">
+          <nav className="flex flex-col gap-4">
+            {NavigationConfig.mainNav.map((item) => (
+              <Link
+                key={item.title}
+                href={item.href}
+                className="border-b border-gray-100 px-6 py-4 text-sm font-medium text-gray-700 hover:text-black"
+              >
+                {item.title}
+              </Link>
+            ))}
+            <div className="flex items-center gap-1 px-2">
+              <Button variant="secondary" asChild>
+                <Link href="/login">Log in</Link>
+              </Button>
+              <Button onClick={handleSignUp}>Get Started</Button>
+            </div>
+          </nav>
+        </SheetContent>
+      </Sheet>
+      <ContactDialog
+        open={isContactDialogOpen}
+        onOpenChange={setIsContactDialogOpen}
+      />
+    </>
+  )
+}
 
 const Logo = () => (
   <Link href="/" className="flex items-center">
@@ -140,16 +154,28 @@ const Logo = () => (
   </Link>
 )
 
-const AuthButtons = () => (
-  <div className="hidden items-center gap-2 md:flex">
-    <Button variant="secondary" asChild>
-      <Link href="/login">Log in</Link>
-    </Button>
-    <Button asChild>
-      <Link href="/signup">Sign up</Link>
-    </Button>
-  </div>
-)
+const AuthButtons = () => {
+  const [isContactDialogOpen, setIsContactDialogOpen] = useState(false)
+
+  const handleSignUp = () => {
+    setIsContactDialogOpen(true)
+  }
+
+  return (
+    <>
+      <div className="hidden items-center gap-2 md:flex">
+        <Button variant="secondary" asChild>
+          <Link href="/login">Log in</Link>
+        </Button>
+        <Button onClick={handleSignUp}>Get Started</Button>
+      </div>
+      <ContactDialog
+        open={isContactDialogOpen}
+        onOpenChange={setIsContactDialogOpen}
+      />
+    </>
+  )
+}
 
 export function Navbar() {
   return (
