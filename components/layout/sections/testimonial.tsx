@@ -75,7 +75,10 @@ const testimonials = [
 
 const TestimonialSection = () => {
   return (
-    <section className="relative w-full py-20 overflow-hidden bg-gray-50">
+    <section
+      id="testimonials"
+      className="relative w-full py-20 overflow-hidden bg-gray-50"
+    >
       <div className="container px-4 mx-auto">
         <div className="max-w-3xl mx-auto text-center mb-12">
           {/* <h2 className="text-sm font-medium text-neutral-600">Benefits</h2> */}

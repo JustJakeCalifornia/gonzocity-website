@@ -54,7 +54,7 @@ const OnboardingSection = () => {
   }
 
   return (
-    <section className="relative w-full py-20 overflow-hidden">
+    <section id="onboarding" className="relative w-full py-20 overflow-hidden">
       <div className="container px-4 mx-auto">
         <div className="max-w-3xl mx-auto text-center">
           {/* <h2 className="text-sm font-medium text-neutral-600">Onboarding</h2> */}
