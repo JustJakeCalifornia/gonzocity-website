@@ -5,6 +5,7 @@ import FeaturesSection from "@/components/layout/sections/features"
 import ModulesSection from "@/components/layout/sections/modules"
 import OnboardingSection from "@/components/layout/sections/onboarding"
 import TestimonialSection from "@/components/layout/sections/testimonial"
+import ContactSection from "@/components/layout/sections/contact"
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <ModulesSection />
         <OnboardingSection />
         <TestimonialSection />
+        <ContactSection />
       </div>
     </div>
   )
