@@ -45,7 +45,7 @@ const OnboardingCard = ({
 
 const OnboardingSection = () => {
   const handleViewModules = () => {
-    document.getElementById("modules")?.scrollIntoView({ behavior: "smooth" })
+    document.getElementById("modules")?.scrollIntoView()
   }
 
   const handleRequestDemo = () => {
