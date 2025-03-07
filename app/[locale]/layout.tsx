@@ -8,6 +8,7 @@ import { NextIntlClientProvider } from "next-intl"
 import { getMessages } from "next-intl/server"
 import { notFound } from "next/navigation"
 import { routing } from "@/i18n/routing"
+
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
@@ -23,31 +24,25 @@ async function validateLocale(locale: string) {
   return locale
 }
 
-export default async function RootLayout({
-  children,
-  params,
-}: {
+type LayoutProps = {
   children: React.ReactNode
-  params: { locale: string }
-}) {
-  // First, await the params object
-  const { locale } = await params
+  params: Promise<{ locale: string }>
+}
 
-  // Await both the locale validation and messages
-  const [validatedLocale, messages] = await Promise.all([
-    validateLocale(locale),
-    // Providing all messages to the client
-    // side is the easiest way to get started
-    getMessages(),
-  ])
+export default async function RootLayout({ children, params }: LayoutProps) {
+  const { locale } = await params
+  const validatedLocale = validateLocale(locale)
+  const messages = getMessages()
+
+  const [validLocale, msgs] = await Promise.all([validatedLocale, messages])
 
   return (
-    <html lang={validatedLocale} suppressHydrationWarning>
+    <html lang={validLocale} suppressHydrationWarning>
       <body
         suppressHydrationWarning
         className={cn("min-h-screen bg-background", inter.className)}
       >
-        <NextIntlClientProvider messages={messages}>
+        <NextIntlClientProvider messages={msgs}>
           <Navbar />
           {children}
           {/* <FooterSection /> */}
