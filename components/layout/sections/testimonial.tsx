@@ -115,7 +115,7 @@ const TestimonialSection = () => {
                                     key={i}
                                     className={`h-3.5 w-3.5 ${
                                       i < testimonial.rating
-                                        ? "text-yellow-400 fill-yellow-400"
+                                        ? "text-brand fill-brand"
                                         : "text-gray-300"
                                     }`}
                                   />
