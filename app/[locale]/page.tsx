@@ -3,6 +3,7 @@ import HeroSection from "../../components/layout/sections/hero"
 import BenefitsSection from "@/components/layout/sections/benefits"
 import FeaturesSection from "@/components/layout/sections/features"
 import ModulesSection from "@/components/layout/sections/modules"
+import OnboardingSection from "@/components/layout/sections/onboarding"
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <BenefitsSection />
         <FeaturesSection />
         <ModulesSection />
+        <OnboardingSection />
       </div>
     </div>
   )
