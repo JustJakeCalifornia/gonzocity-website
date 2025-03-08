@@ -20,6 +20,7 @@ import { NavigationConfig } from "@/config/navigation"
 import { useState } from "react"
 import ContactDialog from "../dialogs/contact-dialog"
 import Logo from "../ui/logo"
+import { ComingSoonButton } from "../ui/coming-soon-button"
 
 interface NavItemProps {
   item: (typeof NavigationConfig.mainNav)[number]
@@ -116,9 +117,7 @@ const MobileNav = () => {
               </Link>
             ))}
             <div className="flex items-center gap-1 px-2">
-              <Button variant="secondary" asChild>
-                <Link href="/login">Log in</Link>
-              </Button>
+              <ComingSoonButton />
               <ContactDialog
                 open={isContactDialogOpen}
                 onOpenChange={setIsContactDialogOpen}
@@ -139,9 +138,7 @@ const AuthButtons = () => {
   return (
     <>
       <div className="hidden items-center gap-2 md:flex">
-        <Button variant="secondary" asChild>
-          <Link href="/login">Log in</Link>
-        </Button>
+        <ComingSoonButton />
         <ContactDialog
           open={isContactDialogOpen}
           onOpenChange={setIsContactDialogOpen}
