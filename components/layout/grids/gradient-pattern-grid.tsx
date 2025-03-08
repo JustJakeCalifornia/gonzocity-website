@@ -1,4 +1,6 @@
-import React from "react"
+"use client"
+
+import React, { useState } from "react"
 import { useId } from "react"
 
 export interface Item {
@@ -15,13 +17,23 @@ export function GradientPatternGrid({
   items,
   className = "",
 }: GradientPatternItemGridProps) {
+  const [activeItemIndex, setActiveItemIndex] = useState<number | null>(null)
+
   return (
     <div className={`py-8 sm:py-10 lg:py-10 ${className}`}>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {items.map((item) => (
+        {items.map((item, index) => (
           <div
             key={item.title}
-            className="relative bg-gradient-to-b dark:from-neutral-900 from-neutral-100 dark:to-neutral-950 to-white p-6 rounded-3xl overflow-hidden hover:shadow-lg transition-all duration-300"
+            className={`relative bg-gradient-to-b dark:from-neutral-900 from-neutral-100 dark:to-neutral-950 to-white p-6 rounded-3xl overflow-hidden transition-all duration-300 
+              sm:hover:shadow-lg 
+              ${activeItemIndex === index ? "shadow-lg" : ""}`}
+            onClick={() => {
+              if (window.innerWidth < 640) {
+                // sm breakpoint
+                setActiveItemIndex(activeItemIndex === index ? null : index)
+              }
+            }}
           >
             <PatternOverlay size={20} />
             <p className="text-base font-bold text-neutral-800 dark:text-white relative z-20">
