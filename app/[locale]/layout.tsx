@@ -8,6 +8,7 @@ import { NextIntlClientProvider } from "next-intl"
 import { getMessages } from "next-intl/server"
 import { notFound } from "next/navigation"
 import { routing } from "@/i18n/routing"
+import { FooterSection } from "@/components/layout/sections/footer"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -45,7 +46,7 @@ export default async function RootLayout({ children, params }: LayoutProps) {
         <NextIntlClientProvider messages={msgs}>
           <Navbar />
           {children}
-          {/* <FooterSection /> */}
+          <FooterSection />
           <Toaster />
         </NextIntlClientProvider>
       </body>
