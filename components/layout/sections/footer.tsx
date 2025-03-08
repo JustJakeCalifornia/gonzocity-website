@@ -1,7 +1,7 @@
 "use client"
 
 import * as React from "react"
-import { FileText, Shield, Instagram } from "lucide-react"
+import { FileText, Shield, Instagram, Scale } from "lucide-react"
 import Logo from "@/components/ui/logo"
 
 export function FooterSection() {
@@ -92,6 +92,11 @@ export function FooterSection() {
               <h3 className="text-sm font-medium">Legal</h3>
               <ul className="space-y-3 text-sm">
                 {[
+                  {
+                    name: "Legal Notice",
+                    Icon: Scale,
+                    href: "/legal/legalnotice",
+                  },
                   {
                     name: "Privacy Policy",
                     Icon: Shield,

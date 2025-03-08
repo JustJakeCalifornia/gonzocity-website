@@ -77,7 +77,7 @@ const TestimonialSection = () => {
   return (
     <section
       id="testimonials"
-      className="relative w-full py-20 overflow-hidden bg-gray-50"
+      className="relative w-full py-20 overflow-hidden"
     >
       <div className="container px-4 mx-auto">
         <div className="max-w-3xl mx-auto text-center mb-12">
