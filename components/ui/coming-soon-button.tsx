@@ -7,25 +7,30 @@ import {
   HoverCardContent,
   HoverCardTrigger,
 } from "@/components/ui/hover-card"
-import { useEffect, useState } from "react"
+import { useState, useEffect } from "react"
 import { ArrowRight, Sparkles } from "lucide-react"
 import CPAccessRequestDialog from "../dialogs/cp-access-request-dialog"
 
 export function ComingSoonButton() {
-  const [open, setOpen] = useState(true)
+  // Separate state for hover and initial animation
+  const [isHovered, setIsHovered] = useState(false)
+  const [showInitialHover, setShowInitialHover] = useState(true)
   const [isAlphaDialogOpen, setIsAlphaDialogOpen] = useState(false)
 
+  // Handle initial animation
   useEffect(() => {
-    // Auto-hide after 20 seconds
     const timer = setTimeout(() => {
-      setOpen(false)
-    }, 20000)
+      setShowInitialHover(false)
+    }, 5000)
 
     return () => clearTimeout(timer)
   }, [])
 
+  // Combine states for HoverCard open state
+  const isHoverCardOpen = isHovered || showInitialHover
+
   return (
-    <HoverCard open={open} onOpenChange={setOpen}>
+    <HoverCard open={isHoverCardOpen} onOpenChange={setIsHovered}>
       <HoverCardTrigger asChild>
         <Button variant="secondary" className="group relative">
           <span>Log in</span>

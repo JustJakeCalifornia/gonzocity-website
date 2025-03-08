@@ -1,7 +1,9 @@
 "use client"
 
 import * as React from "react"
+import confetti from "canvas-confetti"
 import { Button } from "@/components/ui/button"
+import { ConfettiButton } from "@/components/ui/confetti-button"
 import {
   Dialog,
   DialogContent,
@@ -16,11 +18,12 @@ import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
 import { useState } from "react"
 import { Loader2, Sparkles } from "lucide-react"
+import Logo from "../ui/logo"
 
 interface CPAccessRequestDialogProps {
   children?: React.ReactNode
-  open?: boolean
-  onOpenChange?: (open: boolean) => void
+  open: boolean
+  onOpenChange: (open: boolean) => void
 }
 
 export default function CPAccessRequestDialog({
@@ -48,6 +51,14 @@ export default function CPAccessRequestDialog({
     await new Promise((resolve) => setTimeout(resolve, 1000))
     setSubmitted(true)
     setIsLoading(false)
+
+    // Trigger confetti effect
+    confetti({
+      particleCount: 100,
+      spread: 70,
+      origin: { y: 0.6 },
+      colors: ["#5E6AD2", "#64748b", "#0ea5e9"],
+    })
   }
 
   return (
@@ -115,8 +126,8 @@ export default function CPAccessRequestDialog({
           </form>
         ) : (
           <div className="flex flex-col items-center text-center py-6 space-y-4">
-            <div className="h-12 w-12 rounded-full bg-brand/10 flex items-center justify-center">
-              <Sparkles className="h-6 w-6 text-brand" />
+            <div className="h-12 w-12 rounded-full flex items-center justify-center">
+              <Logo />
             </div>
             <div>
               <DialogTitle className="text-xl">
@@ -127,6 +138,26 @@ export default function CPAccessRequestDialog({
                 and get back to you soon.
               </DialogDescription>
             </div>
+            <ConfettiButton
+              variant="secondary"
+              onClick={async (e) => {
+                // Trigger confetti first
+                confetti({
+                  particleCount: 50,
+                  spread: 60,
+                  colors: ["#5E6AD2", "#64748b", "#0ea5e9"],
+                  gravity: 0.7,
+                  scalar: 1.2,
+                  origin: {
+                    x: e.clientX / window.innerWidth,
+                    y: e.clientY / window.innerHeight,
+                  },
+                })
+                onOpenChange(false)
+              }}
+            >
+              Okay
+            </ConfettiButton>
           </div>
         )}
       </DialogContent>
