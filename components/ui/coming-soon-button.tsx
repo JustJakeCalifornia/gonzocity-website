@@ -8,9 +8,12 @@ import {
   HoverCardTrigger,
 } from "@/components/ui/hover-card"
 import { useEffect, useState } from "react"
+import { ArrowRight, Sparkles } from "lucide-react"
+import CPAccessRequestDialog from "../dialogs/cp-access-request-dialog"
 
 export function ComingSoonButton() {
   const [open, setOpen] = useState(true)
+  const [isAlphaDialogOpen, setIsAlphaDialogOpen] = useState(false)
 
   useEffect(() => {
     // Auto-hide after 20 seconds
@@ -30,16 +33,34 @@ export function ComingSoonButton() {
         </Button>
       </HoverCardTrigger>
       <HoverCardContent align="end" className="w-80 p-4">
-        <div className="flex flex-col gap-2">
-          <div className="flex items-center gap-2">
-            <div className="h-2 w-2 rounded-full bg-brand/40 animate-pulse" />
-            <span className="text-sm font-medium text-brand">Coming Soon</span>
+        <div className="flex flex-col gap-4">
+          <div>
+            <div className="flex items-center gap-2">
+              <div className="h-2 w-2 rounded-full bg-brand/40 animate-pulse" />
+              <span className="text-sm font-medium text-brand">
+                Coming Soon
+              </span>
+            </div>
+            <h4 className="font-medium leading-none mt-2">
+              Control Panel Access
+            </h4>
+            <p className="text-sm text-muted-foreground mt-1.5">
+              Our control panel for managing your municipal assets is under
+              construction. Stay tuned for a modern, engaging experience.
+            </p>
           </div>
-          <h4 className="font-medium leading-none">Control Panel Access</h4>
-          <p className="text-sm text-muted-foreground">
-            Our control panel for managing your municipal assets is under
-            construction. Stay tuned for a modern, engaging experience.
-          </p>
+          <CPAccessRequestDialog
+            open={isAlphaDialogOpen}
+            onOpenChange={setIsAlphaDialogOpen}
+          >
+            <div className="mt-1 border-t pt-3">
+              <Button variant="outline" className="w-full group" size="sm">
+                <Sparkles className="mr-2 h-3.5 w-3.5" />
+                <span>Request Alpha Access</span>
+                <ArrowRight className="ml-2 h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" />
+              </Button>
+            </div>
+          </CPAccessRequestDialog>
         </div>
       </HoverCardContent>
     </HoverCard>
