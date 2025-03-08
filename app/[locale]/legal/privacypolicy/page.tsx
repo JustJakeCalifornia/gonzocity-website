@@ -15,7 +15,7 @@ export default function PrivacyPolicy() {
           <h2 className="text-3xl font-semibold">
             {t("sections.section1.title")}
           </h2>
-          <p className="text-lg leading-relaxed">
+          <p className="text-base leading-relaxed">
             {t("sections.section1.content.websiteAddress")}
           </p>
         </section>
@@ -24,10 +24,10 @@ export default function PrivacyPolicy() {
           <h2 className="text-3xl font-semibold">
             {t("sections.section2.title")}
           </h2>
-          <p className="text-lg leading-relaxed">
+          <p className="text-base leading-relaxed">
             {t("sections.section2.content.dataCollection")}
           </p>
-          <p className="text-lg leading-relaxed">
+          <p className="text-base leading-relaxed">
             {t("sections.section2.content.gravatarInfo")}
           </p>
         </section>
@@ -36,7 +36,7 @@ export default function PrivacyPolicy() {
           <h2 className="text-3xl font-semibold">
             {t("sections.section3.title")}
           </h2>
-          <p className="text-lg leading-relaxed">
+          <p className="text-base leading-relaxed">
             {t("sections.section3.content.exifWarning")}
           </p>
         </section>
@@ -45,16 +45,16 @@ export default function PrivacyPolicy() {
           <h2 className="text-3xl font-semibold">
             {t("sections.section4.title")}
           </h2>
-          <p className="text-lg leading-relaxed">
+          <p className="text-base leading-relaxed">
             {t("sections.section4.content.commentCookies")}
           </p>
-          <p className="text-lg leading-relaxed">
+          <p className="text-base leading-relaxed">
             {t("sections.section4.content.loginCookies")}
           </p>
-          <p className="text-lg leading-relaxed">
+          <p className="text-base leading-relaxed">
             {t("sections.section4.content.authCookies")}
           </p>
-          <p className="text-lg leading-relaxed">
+          <p className="text-base leading-relaxed">
             {t("sections.section4.content.editingCookies")}
           </p>
         </section>
@@ -63,10 +63,10 @@ export default function PrivacyPolicy() {
           <h2 className="text-3xl font-semibold">
             {t("sections.section5.title")}
           </h2>
-          <p className="text-lg leading-relaxed">
+          <p className="text-base leading-relaxed">
             {t("sections.section5.content.behavior")}
           </p>
-          <p className="text-lg leading-relaxed">
+          <p className="text-base leading-relaxed">
             {t("sections.section5.content.dataCollection")}
           </p>
         </section>
@@ -75,7 +75,7 @@ export default function PrivacyPolicy() {
           <h2 className="text-3xl font-semibold">
             {t("sections.section6.title")}
           </h2>
-          <p className="text-lg leading-relaxed">
+          <p className="text-base leading-relaxed">
             {t("sections.section6.content.passwordReset")}
           </p>
         </section>
@@ -84,7 +84,7 @@ export default function PrivacyPolicy() {
           <h2 className="text-3xl font-semibold">
             {t("sections.section7.title")}
           </h2>
-          <p className="text-lg leading-relaxed">
+          <p className="text-base leading-relaxed">
             {t("sections.section7.content.userProfiles")}
           </p>
         </section>
@@ -93,16 +93,16 @@ export default function PrivacyPolicy() {
           <h2 className="text-3xl font-semibold">
             {t("sections.section8.title")}
           </h2>
-          <p className="text-lg leading-relaxed">
+          <p className="text-base leading-relaxed">
             {t("sections.section8.content.exportDelete")}
           </p>
         </section>
 
-        <section className="space-y-4">
+        <section className="space-y-4 mb-32">
           <h2 className="text-3xl font-semibold">
             {t("sections.section9.title")}
           </h2>
-          <p className="text-lg leading-relaxed">
+          <p className="text-base leading-relaxed">
             {t("sections.section9.content.spamCheck")}
           </p>
         </section>
