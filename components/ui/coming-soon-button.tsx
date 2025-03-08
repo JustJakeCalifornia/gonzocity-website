@@ -1,0 +1,47 @@
+"use client"
+
+import * as React from "react"
+import { Button } from "@/components/ui/button"
+import {
+  HoverCard,
+  HoverCardContent,
+  HoverCardTrigger,
+} from "@/components/ui/hover-card"
+import { useEffect, useState } from "react"
+
+export function ComingSoonButton() {
+  const [open, setOpen] = useState(true)
+
+  useEffect(() => {
+    // Auto-hide after 20 seconds
+    const timer = setTimeout(() => {
+      setOpen(false)
+    }, 20000)
+
+    return () => clearTimeout(timer)
+  }, [])
+
+  return (
+    <HoverCard open={open} onOpenChange={setOpen}>
+      <HoverCardTrigger asChild>
+        <Button variant="secondary" className="group relative">
+          <span>Log in</span>
+          <div className="ml-1.5 h-2 w-2 rounded-full bg-brand/40 animate-pulse" />
+        </Button>
+      </HoverCardTrigger>
+      <HoverCardContent align="end" className="w-80 p-4">
+        <div className="flex flex-col gap-2">
+          <div className="flex items-center gap-2">
+            <div className="h-2 w-2 rounded-full bg-brand/40 animate-pulse" />
+            <span className="text-sm font-medium text-brand">Coming Soon</span>
+          </div>
+          <h4 className="font-medium leading-none">Control Panel Access</h4>
+          <p className="text-sm text-muted-foreground">
+            Our control panel for managing your municipal assets is under
+            construction. Stay tuned for a modern, engaging experience.
+          </p>
+        </div>
+      </HoverCardContent>
+    </HoverCard>
+  )
+}
