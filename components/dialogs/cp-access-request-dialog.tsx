@@ -36,13 +36,13 @@ export default function CPAccessRequestDialog({
     setIsLoading(true)
 
     // Here you would typically send this to your API
-    const formData = new FormData(e.currentTarget)
-    const data = {
-      name: formData.get("name"),
-      email: formData.get("email"),
-      organization: formData.get("organization"),
-      useCase: formData.get("useCase"),
-    }
+    // const formData = new FormData(e.currentTarget)
+    // // const data = {
+    // //   name: formData.get("name"),
+    // //   email: formData.get("email"),
+    // //   organization: formData.get("organization"),
+    // //   useCase: formData.get("useCase"),
+    // // }
 
     // Simulate API call
     await new Promise((resolve) => setTimeout(resolve, 1000))
