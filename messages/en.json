@@ -263,6 +263,10 @@
     }
   },
   "footer": {
+    "company": {
+      "name": "GonzoCity",
+      "description": "Modernizing municipal asset management with a user-friendly solution."
+    },
     "sections": {
       "socials": {
         "title": "Socials",
@@ -275,7 +279,7 @@
         "legalNotice": "Legal Notice"
       }
     },
-    "copyright": "© 2024 GapLabs. All rights reserved."
+    "copyright": "GapLabs. All rights reserved."
   },
   "termsOfService": {
     "title": "Terms of Service",

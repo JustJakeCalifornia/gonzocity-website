@@ -3,8 +3,11 @@
 import * as React from "react"
 import { FileText, Shield, Instagram, Scale } from "lucide-react"
 import Logo from "@/components/ui/logo"
+import { useTranslations } from "next-intl"
 
 export function FooterSection() {
+  const t = useTranslations("footer")
+
   return (
     <footer className="w-full border-t bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="mx-auto w-full max-w-screen-xl px-4 py-16 lg:px-8">
@@ -14,12 +17,11 @@ export function FooterSection() {
             <div className="flex items-center gap-2">
               <Logo withName={false} />
               <span className="text-xl font-semibold tracking-tight">
-                GonzoCity
+                {t("company.name")}
               </span>
             </div>
             <p className="mt-4 text-sm text-muted-foreground">
-              Modernizing municipal asset management with beautiful, engaging,
-              and user-friendly solutions.
+              {t("company.description")}
             </p>
           </div>
 
@@ -70,40 +72,44 @@ export function FooterSection() {
             </div> */}
 
             <div className="space-y-6">
-              <h3 className="text-sm font-medium">Socials</h3>
+              <h3 className="text-sm font-medium">
+                {t("sections.socials.title")}
+              </h3>
               <ul className="space-y-3 text-sm">
-                {[{ name: "Instagram", Icon: Instagram }].map(
-                  ({ name, Icon }) => (
-                    <li key={name}>
-                      <a
-                        href="https://instagram.com/gullygonzo"
-                        className="group flex items-center text-muted-foreground hover:text-foreground transition-colors"
-                      >
-                        <Icon className="mr-2 h-4 w-4" />
-                        {name}
-                      </a>
-                    </li>
-                  )
-                )}
+                {[
+                  { name: t("sections.socials.instagram"), Icon: Instagram },
+                ].map(({ name, Icon }) => (
+                  <li key={name}>
+                    <a
+                      href="https://instagram.com/gullygonzo"
+                      className="group flex items-center text-muted-foreground hover:text-foreground transition-colors"
+                    >
+                      <Icon className="mr-2 h-4 w-4" />
+                      {name}
+                    </a>
+                  </li>
+                ))}
               </ul>
             </div>
 
             <div className="space-y-6">
-              <h3 className="text-sm font-medium">Legal</h3>
+              <h3 className="text-sm font-medium">
+                {t("sections.legal.title")}
+              </h3>
               <ul className="space-y-3 text-sm">
                 {[
                   {
-                    name: "Legal Notice",
+                    name: t("sections.legal.legalNotice"),
                     Icon: Scale,
                     href: "/legal/legalnotice",
                   },
                   {
-                    name: "Privacy Policy",
+                    name: t("sections.legal.privacyPolicy"),
                     Icon: Shield,
                     href: "/legal/privacypolicy",
                   },
                   {
-                    name: "Terms of Service",
+                    name: t("sections.legal.termsOfService"),
                     Icon: FileText,
                     href: "/legal/termsofservice",
                   },
@@ -125,7 +131,7 @@ export function FooterSection() {
 
         <div className="mt-16 border-t pt-8">
           <p className="text-center text-sm text-muted-foreground">
-            © {new Date().getFullYear()} GonzoCity. All rights reserved.
+            © {new Date().getFullYear()} {t("copyright")}
           </p>
         </div>
       </div>
