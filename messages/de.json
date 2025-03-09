@@ -86,38 +86,32 @@
     "sectionTitle": "Funktionen",
     "heading": "Was uns besonders macht",
     "description": "Transformation der kommunalen Effizienz durch Optimierung der Dokumentation wesentlicher Anlagen wie Abflüsse, Bäume und Straßenbeleuchtung. Unsere Lösungen ermöglichen Kommunen, ihre Ressourcen effektiv zu verwalten und Gemeindedienste zu verbessern.",
-    "items": [
-      {
-        "icon": "ClipboardList",
+    "items": {
+      "item1": {
         "title": "Digitale Dokumentation",
         "description": "Einfache Dokumentation und Verwaltung der städtischen Infrastruktur einschließlich Abflüsse, Bäume, Straßenbeleuchtung und mehr."
       },
-      {
-        "icon": "TabletSmartphone",
+      "item2": {
         "title": "iOS App",
         "description": "Einfache Dokumentation und Verwaltung der städtischen Infrastruktur einschließlich Abflüsse, Bäume, Straßenbeleuchtung und mehr."
       },
-      {
-        "icon": "BarChart3",
+      "item3": {
         "title": "Kontrollzentrum",
         "description": "Umfassende Berichterstattung und Analysen zur Verfolgung der Effizienz und für datengestützte Entscheidungen."
       },
-      {
-        "icon": "PictureInPicture",
+      "item4": {
         "title": "Klare Visualisierung",
         "description": "Übersichtliche und moderne Benutzeroberfläche, die die Bedienbarkeit und Zugänglichkeit verbessert und die Navigation erleichtert."
       },
-      {
-        "icon": "Sparkle",
+      "item5": {
         "title": "Echtzeit-Updates",
         "description": "Sofortige Kommunikation zwischen Büropersonal und Außendienstmitarbeitern für effizientes Aufgabenmanagement."
       },
-      {
-        "icon": "Bell",
+      "item6": {
         "title": "Intelligente Benachrichtigungen",
         "description": "Automatisierte Warnungen für Wartungspläne, dringende Reparaturen und Aufgabenzuweisungen."
       }
-    ]
+    }
   },
   "modules": {
     "sectionTitle": "Module",

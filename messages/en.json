@@ -86,38 +86,32 @@
     "sectionTitle": "Features",
     "heading": "What Makes Us Different",
     "description": "Transforming municipal efficiency by streamlining the documentation of essential assets like gullies, trees, and street lights. Our solutions empower local governments to manage their resources effectively and enhance community services.",
-    "items": [
-      {
-        "icon": "ClipboardList",
+    "items": {
+      "item1": {
         "title": "Digital Documentation",
         "description": "Easily document and manage city infrastructure including gullies, trees, street lights, and more."
       },
-      {
-        "icon": "TabletSmartphone",
+      "item2": {
         "title": "iOS App",
         "description": "Easily document and manage city infrastructure including gullies, trees, street lights, and more."
       },
-      {
-        "icon": "BarChart3",
+      "item3": {
         "title": "Control Panel",
         "description": "Comprehensive reporting and analytics to track efficiency and make data-driven decisions."
       },
-      {
-        "icon": "PictureInPicture",
+      "item4": {
         "title": "Strong Visuals",
         "description": "Clean and modern UI that enhances usability and accessibility, making navigation effortless."
       },
-      {
-        "icon": "Sparkle",
+      "item5": {
         "title": "Real-Time Updates",
         "description": "Instant communication between office staff and field workers for efficient task management."
       },
-      {
-        "icon": "Bell",
+      "item6": {
         "title": "Smart Notifications",
         "description": "Automated alerts for maintenance schedules, urgent repairs, and task assignments."
       }
-    ]
+    }
   },
   "modules": {
     "sectionTitle": "Modules",
