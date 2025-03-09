@@ -160,44 +160,50 @@
   "testimonials": {
     "sectionTitle": "Testimonials",
     "heading": "Hear What Our 1000+ Clients Say",
-    "reviews": [
-      {
-        "name": "Charlotte Brown",
-        "role": "UX Designer at Aussie Digital Lab (Australia)",
-        "comment": "We introduced this solution to several local councils, and the response was overwhelmingly positive. The platform's modern UI and quick documentation process for assets like streetlights and trees have significantly streamlined municipal workflows.",
-        "rating": 4.9
+    "reviews": {
+      "review1": {
+        "author": "Charlotte Brown",
+        "role": "UX Designer",
+        "company": "Aussie Digital Lab",
+        "country": "Australia",
+        "comment": "GonzoCity has revolutionized how we manage our municipal assets. The real-time tracking and intuitive interface have improved our efficiency by 300%."
       },
-      {
-        "name": "Johann Müller",
-        "role": "Geschäftsführer at BerlinTech GmbH (Germany)",
-        "comment": "Unsere Gemeinde-Partner sind begeistert von der benutzerfreundlichen iOS- und Web-App. Ob Straßenlaternen, Bäume oder Mülleimer – die Dokumentation war noch nie so einfach. Ein echter Gewinn für die kommunale Verwaltung!",
-        "rating": 5.0
+      "review2": {
+        "author": "Johann Müller",
+        "role": "Geschäftsführer",
+        "company": "BerlinTech GmbH",
+        "country": "Germany",
+        "comment": "Unsere Gemeinde-Partner sind begeistert von der benutzerfreundlichen iOS- und Web-App. Ein echter Gewinn für die kommunale Verwaltung!"
       },
-      {
-        "name": "Jessica Thompson",
-        "role": "Marketing Director at Acme Corp (U.S.)",
-        "comment": "We've helped multiple cities adopt this platform, and the feedback has been fantastic. The ability to track and update various assets on both iOS and web—like gullies and streetlights—has genuinely transformed local government operations.",
-        "rating": 4.8
+      "review3": {
+        "author": "Jessica Thompson",
+        "role": "Marketing Director",
+        "company": "Acme Corp",
+        "country": "United States",
+        "comment": "We've helped multiple cities adopt this platform, and the feedback has been fantastic. The ability to track and update various assets in real-time is a game-changer."
       },
-      {
-        "name": "Helena Schulz",
-        "role": "Lead Developer at München Innovations (Germany)",
-        "comment": "Die Integration eines zentralen Systems zur Erfassung von Straßenlaternen, Bäumen und Co. funktioniert reibungslos. Vor allem das Echtzeit-Reporting und die intuitive Bedienung sind ein großes Plus für unsere Kommunen.",
-        "rating": 4.9
+      "review4": {
+        "author": "Helena Schulz",
+        "role": "Lead Developer",
+        "company": "München Innovations",
+        "country": "Germany",
+        "comment": "Die Erfassung von Gullies & Co. funktioniert reibungslos. Das Echtzeit-Reporting und die intuitive Bedienung sind ein großes Plus für unsere Kommunen."
       },
-      {
-        "name": "Oliver Smith",
-        "role": "CTO at SydneyTech Solutions (Australia)",
-        "comment": "This platform offers one of the most efficient ways to manage municipal data that I've seen. From iOS app to web dashboard, the flow is seamless, and our clients love how quick it is to document assets like rubbish bins and streetlights.",
-        "rating": 5.0
+      "review5": {
+        "author": "Oliver Smith",
+        "role": "CTO",
+        "company": "SydneyTech Solutions",
+        "country": "Australia",
+        "comment": "This platform offers one of the most efficient ways to manage municipal data that I've seen. From iOS app to web dashboard, the flow is seamless. Our clients love it."
       },
-      {
-        "name": "Michael Anderson",
-        "role": "CEO at Redwood Analytics (U.S.)",
-        "comment": "Adopting this software has made asset tracking effortless for our partner municipalities. The simple user interface and real-time updates on everything from gullies to garbage cans mean cities can operate far more efficiently.",
-        "rating": 5.0
+      "review6": {
+        "author": "Michael Anderson",
+        "role": "CEO",
+        "company": "Redwood Analytics",
+        "country": "United States",
+        "comment": "Adopting this software has made asset tracking effortless for our partner municipalities. The simple user interface and real-time updates mean cities can operate more efficiently."
       }
-    ]
+    }
   },
   "contact": {
     "sectionTitle": "Contact",

@@ -160,44 +160,50 @@
   "testimonials": {
     "sectionTitle": "Referenzen",
     "heading": "Das sagen unsere 1000+ Kunden",
-    "reviews": [
-      {
-        "name": "Charlotte Brown",
-        "role": "UX Designer bei Aussie Digital Lab (Australien)",
-        "comment": "Wir haben diese Lösung mehreren Gemeinden vorgestellt, und die Resonanz war überwältigend positiv. Die moderne Benutzeroberfläche und der schnelle Dokumentationsprozess für Anlagen wie Straßenbeleuchtung und Bäume haben die kommunalen Arbeitsabläufe deutlich optimiert.",
-        "rating": 4.9
+    "reviews": {
+      "review1": {
+        "author": "Charlotte Brown",
+        "role": "UX Designer",
+        "company": "Aussie Digital Lab",
+        "country": "Australia",
+        "comment": "GonzoCity has revolutionized how we manage our municipal assets. The real-time tracking and intuitive interface have improved our efficiency by 300%."
       },
-      {
-        "name": "Johann Müller",
-        "role": "Geschäftsführer bei BerlinTech GmbH (Deutschland)",
-        "comment": "Unsere Gemeinde-Partner sind begeistert von der benutzerfreundlichen iOS- und Web-App. Ob Straßenlaternen, Bäume oder Mülleimer – die Dokumentation war noch nie so einfach. Ein echter Gewinn für die kommunale Verwaltung!",
-        "rating": 5.0
+      "review2": {
+        "author": "Johann Müller",
+        "role": "Geschäftsführer",
+        "company": "BerlinTech GmbH",
+        "country": "Germany",
+        "comment": "Unsere Gemeinde-Partner sind begeistert von der benutzerfreundlichen iOS- und Web-App. Ein echter Gewinn für die kommunale Verwaltung!"
       },
-      {
-        "name": "Jessica Thompson",
-        "role": "Marketing Direktorin bei Acme Corp (USA)",
-        "comment": "Wir haben mehreren Städten bei der Einführung dieser Plattform geholfen, und das Feedback war fantastisch. Die Möglichkeit, verschiedene Anlagen wie Abflüsse und Straßenbeleuchtung sowohl über iOS als auch über das Web zu verfolgen und zu aktualisieren, hat den kommunalen Betrieb wirklich transformiert.",
-        "rating": 4.8
+      "review3": {
+        "author": "Jessica Thompson",
+        "role": "Marketing Director",
+        "company": "Acme Corp",
+        "country": "United States",
+        "comment": "We've helped multiple cities adopt this platform, and the feedback has been fantastic. The ability to track and update various assets in real-time is a game-changer."
       },
-      {
-        "name": "Helena Schulz",
-        "role": "Leitende Entwicklerin bei München Innovations (Deutschland)",
-        "comment": "Die Integration eines zentralen Systems zur Erfassung von Straßenlaternen, Bäumen und Co. funktioniert reibungslos. Vor allem das Echtzeit-Reporting und die intuitive Bedienung sind ein großes Plus für unsere Kommunen.",
-        "rating": 4.9
+      "review4": {
+        "author": "Helena Schulz",
+        "role": "Lead Developer",
+        "company": "München Innovations",
+        "country": "Germany",
+        "comment": "Die Erfassung von Gullies & Co. funktioniert reibungslos. Das Echtzeit-Reporting und die intuitive Bedienung sind ein großes Plus für unsere Kommunen."
       },
-      {
-        "name": "Oliver Smith",
-        "role": "CTO bei SydneyTech Solutions (Australien)",
-        "comment": "Diese Plattform bietet eine der effizientesten Möglichkeiten zur Verwaltung kommunaler Daten, die ich je gesehen habe. Von der iOS-App bis zum Web-Dashboard ist der Ablauf nahtlos, und unsere Kunden lieben, wie schnell die Dokumentation von Anlagen wie Mülleimern und Straßenbeleuchtung ist.",
-        "rating": 5.0
+      "review5": {
+        "author": "Oliver Smith",
+        "role": "CTO",
+        "company": "SydneyTech Solutions",
+        "country": "Australia",
+        "comment": "This platform offers one of the most efficient ways to manage municipal data that I've seen. From iOS app to web dashboard, the flow is seamless. Our clients love it."
       },
-      {
-        "name": "Michael Anderson",
-        "role": "CEO bei Redwood Analytics (USA)",
-        "comment": "Die Einführung dieser Software hat die Anlagenverfolgung für unsere Partnerkommunen mühelos gemacht. Die einfache Benutzeroberfläche und Echtzeit-Updates zu allem, von Abflüssen bis zu Mülleimern, bedeuten, dass Städte viel effizienter arbeiten können.",
-        "rating": 5.0
+      "review6": {
+        "author": "Michael Anderson",
+        "role": "CEO",
+        "company": "Redwood Analytics",
+        "country": "United States",
+        "comment": "Adopting this software has made asset tracking effortless for our partner municipalities. The simple user interface and real-time updates mean cities can operate more efficiently."
       }
-    ]
+    }
   },
   "contact": {
     "sectionTitle": "Kontakt",

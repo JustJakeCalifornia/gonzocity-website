@@ -9,71 +9,68 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel"
-
-const testimonials = [
-  {
-    id: 1,
-    company: "Berlin City Council",
-    country: "Germany",
-    author: "Michael Weber",
-    role: "Head of Infrastructure",
-    content:
-      "GonzoCity has revolutionized how we manage our municipal assets. The real-time tracking and intuitive interface have improved our efficiency by 300%.",
-    rating: 5,
-  },
-  {
-    id: 2,
-    company: "Hamburg Public Works",
-    country: "Germany",
-    author: "Lisa Schmidt",
-    role: "Operations Manager",
-    content:
-      "The mobile app is a game-changer for our field workers. Documentation and updates are now seamless and instant.",
-    rating: 4,
-  },
-  {
-    id: 3,
-    company: "City of Austin",
-    country: "United States",
-    author: "John Martinez",
-    role: "City Manager",
-    content:
-      "Since implementing GonzoCity, we've reduced our response time to infrastructure issues by 65%. A must-have for modern cities.",
-    rating: 5,
-  },
-  {
-    id: 4,
-    company: "NYC Department of Transportation",
-    country: "United States",
-    author: "Sarah Thompson",
-    role: "Asset Manager",
-    content:
-      "The control panel gives us unprecedented visibility into our city's infrastructure. It's like having a smart city command center.",
-    rating: 5,
-  },
-  {
-    id: 5,
-    company: "Sydney Municipal Council",
-    country: "Australia",
-    author: "James Wilson",
-    role: "Technical Director",
-    content:
-      "GonzoCity's asset tracking capabilities have transformed our maintenance schedules. We're now proactive rather than reactive.",
-    rating: 4,
-  },
-  {
-    id: 6,
-    company: "Melbourne City Services",
-    country: "Australia",
-    author: "Emma Brown",
-    role: "Infrastructure Lead",
-    content:
-      "The ease of documenting and managing city assets with GonzoCity is remarkable. Our team adopted it within days.",
-    rating: 5,
-  },
-]
+import { useTranslations } from "next-intl"
 
 const TestimonialSection = () => {
+  const t = useTranslations("testimonials")
+
+  const testimonials = [
+    {
+      id: 1,
+      author: t("reviews.review1.author"),
+      role: t("reviews.review1.role"),
+      company: t("reviews.review1.company"),
+      country: t("reviews.review1.country"),
+      comment: t("reviews.review1.comment"),
+      rating: 5,
+    },
+    {
+      id: 2,
+      author: t("reviews.review2.author"),
+      role: t("reviews.review2.role"),
+      company: t("reviews.review2.company"),
+      country: t("reviews.review2.country"),
+      comment: t("reviews.review2.comment"),
+      rating: 4,
+    },
+    {
+      id: 3,
+      author: t("reviews.review3.author"),
+      role: t("reviews.review3.role"),
+      company: t("reviews.review3.company"),
+      country: t("reviews.review3.country"),
+      comment: t("reviews.review3.comment"),
+      rating: 5,
+    },
+    {
+      id: 4,
+      author: t("reviews.review4.author"),
+      role: t("reviews.review4.role"),
+      company: t("reviews.review4.company"),
+      country: t("reviews.review4.country"),
+      comment: t("reviews.review4.comment"),
+      rating: 5,
+    },
+    {
+      id: 5,
+      author: t("reviews.review5.author"),
+      role: t("reviews.review5.role"),
+      company: t("reviews.review5.company"),
+      country: t("reviews.review5.country"),
+      comment: t("reviews.review5.comment"),
+      rating: 4,
+    },
+    {
+      id: 6,
+      author: t("reviews.review6.author"),
+      role: t("reviews.review6.role"),
+      company: t("reviews.review6.company"),
+      country: t("reviews.review6.country"),
+      comment: t("reviews.review6.comment"),
+      rating: 5,
+    },
+  ]
+
   return (
     <section
       id="testimonials"
@@ -125,7 +122,7 @@ const TestimonialSection = () => {
                                 ))}
                               </div>
                               <p className="text-neutral-700 leading-relaxed text-sm">
-                                &ldquo;{testimonial.content}&rdquo;
+                                &ldquo;{testimonial.comment}&rdquo;
                               </p>
                             </div>
                             <div className="mt-auto">
