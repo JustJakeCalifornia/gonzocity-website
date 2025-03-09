@@ -63,28 +63,24 @@
     "sectionTitle": "Benefits",
     "heading": "Your Shortcut to Success",
     "description": "Modernize your infrastructure management with our digital solution. From street furniture to urban greenery, efficiently track and maintain your municipal assets while reducing costs and improving service delivery.",
-    "items": [
-      {
-        "icon": "Blocks",
+    "items": {
+      "item1": {
         "title": "Streamline Asset Management",
         "description": "Efficiently document and manage municipal assets with our structured digital solution. Transform complex infrastructure data into organized, accessible records."
       },
-      {
-        "icon": "LineChart",
+      "item2": {
         "title": "Enhance Decision Making",
         "description": "Make informed decisions with comprehensive asset data at your fingertips. Track maintenance needs, identify patterns, and optimize resource allocation."
       },
-      {
-        "icon": "Wallet",
+      "item3": {
         "title": "Reduce Operational Costs",
         "description": "Cut down on manual documentation efforts and minimize maintenance oversights. Our system helps prevent costly repairs through better tracking and early intervention."
       },
-      {
-        "icon": "Sparkle",
+      "item4": {
         "title": "Improve Service Quality",
         "description": "Deliver better public services through systematic asset monitoring. From street lighting to urban greenery, ensure every asset receives timely attention."
       }
-    ]
+    }
   },
   "features": {
     "sectionTitle": "Features",

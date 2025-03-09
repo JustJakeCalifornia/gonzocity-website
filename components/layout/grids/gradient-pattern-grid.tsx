@@ -36,10 +36,10 @@ export function GradientPatternGrid({
             }}
           >
             <PatternOverlay size={20} />
-            <p className="text-base font-bold text-neutral-800 dark:text-white relative z-20">
+            <p className="text-base text-left font-bold text-neutral-800 dark:text-white relative z-20">
               {item.title}
             </p>
-            <p className="text-neutral-600 dark:text-neutral-400 mt-4 text-base font-normal relative z-20">
+            <p className="text-neutral-600 dark:text-neutral-400 mt-4 text-left text-base font-normal relative z-20">
               {item.description}
             </p>
           </div>

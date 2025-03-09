@@ -52,7 +52,7 @@
     "sectionTitle": "Unsere Partner",
     "heading": "Vertraut von Branchenführern",
     "description": {
-      "prefix1": "Unterstützt über",
+      "prefix1": "Unterstützt von über",
       "highlight1": "2.000+ Organisationen",
       "suffix1": "in mehr als",
       "highlight2": "50+ Städten",
@@ -63,28 +63,24 @@
     "sectionTitle": "Vorteile",
     "heading": "Ihr Weg zum Erfolg",
     "description": "Modernisieren Sie Ihr Infrastrukturmanagement mit unserer digitalen Lösung. Von Stadtmöbeln bis zur urbanen Begrünung – verfolgen und warten Sie Ihre kommunalen Anlagen effizient bei gleichzeitiger Kostensenkung und verbesserter Servicequalität.",
-    "items": [
-      {
-        "icon": "Blocks",
+    "items": {
+      "item1": {
         "title": "Effizientes Anlagenmanagement",
         "description": "Dokumentieren und verwalten Sie kommunale Anlagen effizient mit unserer strukturierten digitalen Lösung. Wandeln Sie komplexe Infrastrukturdaten in organisierte, zugängliche Aufzeichnungen um."
       },
-      {
-        "icon": "LineChart",
+      "item2": {
         "title": "Bessere Entscheidungsfindung",
         "description": "Treffen Sie fundierte Entscheidungen mit umfassenden Anlagendaten auf Abruf. Verfolgen Sie Wartungsbedarf, erkennen Sie Muster und optimieren Sie die Ressourcenzuweisung."
       },
-      {
-        "icon": "Wallet",
+      "item3": {
         "title": "Reduzierung der Betriebskosten",
         "description": "Reduzieren Sie den manuellen Dokumentationsaufwand und minimieren Sie Wartungsversäumnisse. Unser System hilft durch besseres Tracking und frühzeitiges Eingreifen, kostspielige Reparaturen zu vermeiden."
       },
-      {
-        "icon": "Sparkle",
+      "item4": {
         "title": "Verbesserte Servicequalität",
         "description": "Bieten Sie bessere öffentliche Dienste durch systematische Anlagenüberwachung. Von der Straßenbeleuchtung bis zur städtischen Begrünung – stellen Sie sicher, dass jede Anlage rechtzeitig gewartet wird."
       }
-    ]
+    }
   },
   "features": {
     "sectionTitle": "Funktionen",
