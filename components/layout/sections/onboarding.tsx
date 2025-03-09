@@ -5,6 +5,7 @@ import { LucideIcon, SendHorizonal, ArrowRight } from "lucide-react"
 import { GradientBorderCard } from "@/components/ui/cards/gradient-border-card"
 import ContactDialog from "@/components/dialogs/contact-dialog"
 import { useState } from "react"
+import { useTranslations } from "next-intl"
 
 const OnboardingCard = ({
   step,
@@ -46,6 +47,7 @@ const OnboardingCard = ({
 }
 
 const OnboardingSection = () => {
+  const t = useTranslations("onboarding")
   const [isContactDialogOpen, setIsContactDialogOpen] = useState(false)
 
   const handleViewModules = () => {
@@ -60,16 +62,17 @@ const OnboardingSection = () => {
     <section id="onboarding" className="relative w-full py-20 overflow-hidden">
       <div className="container px-4 mx-auto">
         <div className="max-w-3xl mx-auto text-center">
-          {/* <h2 className="text-sm font-medium text-neutral-600">Onboarding</h2> */}
-          <h2 className="text-sm font-medium text-brand">Onboarding</h2>
+          {/* <h2 className="text-sm font-medium text-neutral-600">{t("sectionTitle")}</h2> */}
+          <h2 className="text-sm font-medium text-brand">
+            {t("sectionTitle")}
+          </h2>
 
           <h2 className="text-balance font-display text-3xl font-medium text-neutral-900 mb-3">
-            How it works
+            {t("heading")}
           </h2>
 
           <p className="text-pretty text-lg text-neutral-500 leading-relaxed">
-            These are the steps to seamlessly start your journey towards more
-            efficient city management
+            {t("description")}
           </p>
         </div>
       </div>
@@ -77,24 +80,24 @@ const OnboardingSection = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
         <OnboardingCard
           step={1}
-          title="Try Out Demo"
-          description="Experience our solution firsthand. Request a demo through our contact form and see how it can transform your operations"
-          buttonText="Request Demo"
+          title={t("steps.step1.title")}
+          description={t("steps.step1.description")}
+          buttonText={t("steps.step1.actionName")}
           buttonIcon={SendHorizonal}
           onClick={handleRequestDemo}
         />
         <OnboardingCard
           step={2}
-          title="Select Modules"
-          description="Choose the specific modules that best fit your municipality or business needs after experiencing the demo"
-          buttonText="View Modules"
+          title={t("steps.step2.title")}
+          description={t("steps.step2.description")}
+          buttonText={t("steps.step2.actionName")}
           buttonIcon={ArrowRight}
           onClick={handleViewModules}
         />
         <OnboardingCard
           step={3}
-          title="Delivery & Training"
-          description="Schedule a convenient date for system deployment and comprehensive on-site training for your team"
+          title={t("steps.step3.title")}
+          description={t("steps.step3.description")}
         />
       </div>
       <ContactDialog
