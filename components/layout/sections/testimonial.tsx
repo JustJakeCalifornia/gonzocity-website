@@ -78,11 +78,13 @@ const TestimonialSection = () => {
     >
       <div className="container px-4 mx-auto">
         <div className="max-w-3xl mx-auto text-center mb-12">
-          {/* <h2 className="text-sm font-medium text-neutral-600">Benefits</h2> */}
-          <h2 className="text-sm font-medium text-brand">Testimonials</h2>
+          {/* <h2 className="text-sm font-medium text-neutral-600">{t("sectionTitle")}</h2> */}
+          <h2 className="text-sm font-medium text-brand">
+            {t("sectionTitle")}
+          </h2>
 
           <h2 className="text-balance font-display text-3xl font-medium text-neutral-900 mb-3">
-            Hear What Our 1000+ Clients Say
+            {t("heading")}
           </h2>
         </div>
 
