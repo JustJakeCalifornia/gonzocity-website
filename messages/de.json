@@ -23,14 +23,29 @@
       "highlight": "Echtzeit",
       "suffix": "Effizienz"
     },
-    "description": "Digitalisieren Sie die Dokumentation und Verwaltung der städtischen Infrastruktur. Verbinden Sie Außendienstmitarbeiter und Büropersonal in Echtzeit für eine nahtlose Koordination.",
+    "description": "GonzoCity ist eine Software für kommunales Asset Management, die moderne Kommunalverwaltungen unterstützt.",
     "actions": {
-      "getStartedbutton": "Jetzt starten",
+      "getStartedButton": "Jetzt starten",
       "downloadiOSButton": "iOS App herunterladen"
+    },
+    "checklist": {
+      "item1": "Echtzeit-Updates",
+      "item2": "Sichere Daten",
+      "item3": "Mobilfreundlich"
     },
     "tabs": {
       "controlPanel": "Kontrollzentrum",
       "iosApp": "iOS App"
+    },
+    "carouselImagesAlt": {
+      "iosApp": {
+        "image1": "iOS-App-Oberfläche – Helles Design",
+        "image2": "iOS-App-Oberfläche – Dunkles Design"
+      },
+      "controlPanel": {
+        "image1": "Kontrollzentrum – Helles Design",
+        "image2": "Kontrollzentrum – Dunkles Design"
+      }
     }
   },
   "partners": {

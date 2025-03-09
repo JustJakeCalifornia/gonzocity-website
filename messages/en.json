@@ -23,14 +23,29 @@
       "highlight": "Real-Time",
       "suffix": "Efficiency"
     },
-    "description": "Streamline city infrastructure documentation and management. Connect field workers and office staff in real-time for seamless coordination.",
+    "description": "GonzoCity is a municipal asset management software for modern municipal operations.",
     "actions": {
-      "getStartedbutton": "Get Started",
+      "getStartedButton": "Get Started",
       "downloadiOSButton": "Download iOS app"
+    },
+    "checklist": {
+      "item1": "Real-time updates",
+      "item2": "Secure data",
+      "item3": "Mobile friendly"
     },
     "tabs": {
       "controlPanel": "Control Panel",
       "iosApp": "iOS App"
+    },
+    "carouselImagesAlt": {
+      "iosApp": {
+        "image1": "iOS App Interface - Light Theme",
+        "image2": "iOS App Interface - Dark Theme"
+      },
+      "controlPanel": {
+        "image1": "Control Panel Interface - Light Theme",
+        "image2": "Control Panel Interface - Dark Theme"
+      }
     }
   },
   "partners": {
