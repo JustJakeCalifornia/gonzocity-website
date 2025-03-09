@@ -21,9 +21,10 @@ import { useState } from "react"
 import ContactDialog from "../dialogs/contact-dialog"
 import Logo from "../ui/logo"
 import { ComingSoonButton } from "../ui/coming-soon-button"
+import { useTranslations } from "next-intl"
 
 interface NavItemProps {
-  item: (typeof NavigationConfig.mainNav)[number]
+  item: ReturnType<typeof NavigationConfig>["mainNav"][number]
 }
 
 const DesktopNavItem = ({ item }: NavItemProps) => {
@@ -83,18 +84,25 @@ const DesktopNavItem = ({ item }: NavItemProps) => {
   )
 }
 
-const DesktopNav = () => (
-  <NavigationMenu className="hidden md:flex">
-    <NavigationMenuList>
-      {NavigationConfig.mainNav.map((item) => (
-        <DesktopNavItem key={item.title} item={item} />
-      ))}
-    </NavigationMenuList>
-  </NavigationMenu>
-)
+const DesktopNav = () => {
+  const navigationConfig = NavigationConfig()
+
+  return (
+    <NavigationMenu className="hidden md:flex">
+      <NavigationMenuList>
+        {navigationConfig.mainNav.map((item) => (
+          <DesktopNavItem key={item.title} item={item} />
+        ))}
+      </NavigationMenuList>
+    </NavigationMenu>
+  )
+}
 
 const MobileNav = () => {
   const [isContactDialogOpen, setIsContactDialogOpen] = useState(false)
+  const navigationConfig = NavigationConfig()
+
+  const t = useTranslations("navbar.actions")
 
   return (
     <>
@@ -102,12 +110,12 @@ const MobileNav = () => {
         <SheetTrigger asChild className="md:hidden">
           <Button variant="ghost" size="icon" className="h-6 w-6 p-0">
             <Menu className="h-6 w-6" />
-            <span className="sr-only">Toggle menu</span>
+            <span className="sr-only">{t("toggleMenu")}</span>
           </Button>
         </SheetTrigger>
         <SheetContent side="right" className="w-[300px] sm:w-[400px] px-0">
           <nav className="flex flex-col gap-4">
-            {NavigationConfig.mainNav.map((item) => (
+            {navigationConfig.mainNav.map((item) => (
               <Link
                 key={item.title}
                 href={item.href}
@@ -122,7 +130,7 @@ const MobileNav = () => {
                 open={isContactDialogOpen}
                 onOpenChange={setIsContactDialogOpen}
               >
-                <Button>Get Started</Button>
+                <Button>{t("getStarted")}</Button>
               </ContactDialog>
             </div>
           </nav>
@@ -135,6 +143,8 @@ const MobileNav = () => {
 const AuthButtons = () => {
   const [isContactDialogOpen, setIsContactDialogOpen] = useState(false)
 
+  const t = useTranslations("navbar.actions")
+
   return (
     <>
       <div className="hidden items-center gap-2 md:flex">
@@ -143,7 +153,7 @@ const AuthButtons = () => {
           open={isContactDialogOpen}
           onOpenChange={setIsContactDialogOpen}
         >
-          <Button>Get Started</Button>
+          <Button>{t("getStarted")}</Button>
         </ContactDialog>
       </div>
     </>

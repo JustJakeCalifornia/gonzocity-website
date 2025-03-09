@@ -26,7 +26,7 @@ export const ContactDialog = ({ children, open, onOpenChange }: Props) => {
       <DialogTrigger asChild>{children}</DialogTrigger>
       <DialogContent className="sm:max-w-[425px] border-input">
         <DialogHeader>
-          <DialogTitle>Sign up for Free Trial</DialogTitle>
+          <DialogTitle>{t("title")}</DialogTitle>
           <DialogDescription>{t("dialogDescription")}</DialogDescription>
         </DialogHeader>
         <ContactForm onSuccess={() => onOpenChange(false)} />

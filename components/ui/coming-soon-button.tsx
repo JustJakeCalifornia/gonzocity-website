@@ -8,10 +8,13 @@ import {
   HoverCardTrigger,
 } from "@/components/ui/hover-card"
 import { useState, useEffect } from "react"
+import { useTranslations } from "next-intl"
 
 export function ComingSoonButton() {
   const [isHovered, setIsHovered] = useState(false)
   const [showInitialHover, setShowInitialHover] = useState(true)
+
+  const t = useTranslations("navbar")
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -27,7 +30,7 @@ export function ComingSoonButton() {
     <HoverCard open={isHoverCardOpen} onOpenChange={setIsHovered}>
       <HoverCardTrigger asChild>
         <Button variant="secondary" className="group relative">
-          <span>Log in</span>
+          <span>{t("actions.signIn")}</span>
           <div className="ml-1.5 h-2 w-2 rounded-full bg-brand/40 animate-pulse" />
         </Button>
       </HoverCardTrigger>
@@ -37,13 +40,14 @@ export function ComingSoonButton() {
             <div className="flex items-center gap-2">
               <div className="h-2 w-2 rounded-full bg-brand/40 animate-pulse" />
               <span className="text-sm font-medium text-brand">
-                Coming Soon
+                {t("comingSoon.title")}
               </span>
             </div>
-            <h4 className="font-medium leading-none mt-2">Control Panel</h4>
+            <h4 className="font-medium leading-none mt-2">
+              {t("comingSoon.subtitle")}
+            </h4>
             <p className="text-sm text-muted-foreground mt-1.5">
-              Our control panel for managing your municipal assets is under
-              construction. Stay tuned for a modern, engaging experience.
+              {t("comingSoon.description")}
             </p>
           </div>
         </div>

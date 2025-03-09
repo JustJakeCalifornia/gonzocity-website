@@ -8,7 +8,13 @@
     },
     "actions": {
       "signIn": "Anmelden",
-      "getStarted": "Jetzt starten"
+      "getStarted": "Jetzt starten",
+      "toggleMenu": "Menü öffnen"
+    },
+    "comingSoon": {
+      "title": "Demnächst verfügbar",
+      "subtitle": "Kontrollzentrum",
+      "description": "Unsere Kontrollzentrum zur Verwaltung Ihrer kommunalen Anlagen befindet sich in Entwicklung. Freuen Sie sich auf eine moderne und intuitive Erfahrung."
     }
   },
   "hero": {

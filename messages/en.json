@@ -8,7 +8,13 @@
     },
     "actions": {
       "signIn": "Sign in",
-      "getStarted": "Get Started"
+      "getStarted": "Get Started",
+      "toggleMenu": "Toggle menu"
+    },
+    "comingSoon": {
+      "title": "Coming Soon",
+      "subtitle": "Control Panel",
+      "description": "Our control panel for managing your municipal assets is under construction. Stay tuned for a modern, engaging experience."
     }
   },
   "hero": {
