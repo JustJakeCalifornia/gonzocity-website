@@ -16,7 +16,7 @@ import {
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
-import { NavigationConfig } from "@/config/navigation"
+import { NavigationConfig } from "@/components/navigation/navigation"
 import { useState } from "react"
 import ContactDialog from "../dialogs/contact-dialog"
 import Logo from "../ui/logo"
