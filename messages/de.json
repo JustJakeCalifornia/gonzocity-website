@@ -51,7 +51,13 @@
   "partners": {
     "sectionTitle": "Unsere Partner",
     "heading": "Vertraut von Branchenführern",
-    "description": "Unterstützt über 2.000+ Organisationen in mehr als 50+ Städten weltweit"
+    "description": {
+      "prefix1": "Unterstützt über",
+      "highlight1": "2.000+ Organisationen",
+      "suffix1": "in mehr als",
+      "highlight2": "50+ Städten",
+      "suffix": "weltweit"
+    }
   },
   "benefits": {
     "sectionTitle": "Vorteile",

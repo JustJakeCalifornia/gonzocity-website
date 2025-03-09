@@ -8,6 +8,7 @@ import {
 import AutoScroll from "embla-carousel-auto-scroll"
 import { Icon } from "@/components/ui/icon"
 import { icons } from "lucide-react"
+import { useTranslations } from "next-intl"
 
 interface partnersProps {
   id: number
@@ -54,22 +55,31 @@ const partners: partnersProps[] = [
 ]
 
 export const PartnersSection = () => {
+  const t = useTranslations("partners")
+
   return (
     <section id="partners" className="relative w-full py-20 overflow-hidden">
       <div className="container px-4 mx-auto">
         <div className="max-w-3xl mx-auto text-center">
           {/* <h2 className="text-sm font-medium text-neutral-600">Our Partners</h2> */}
-          <h2 className="text-sm font-medium text-brand">Our Partners</h2>
+          <h2 className="text-sm font-medium text-brand">
+            {t("sectionTitle")}
+          </h2>
 
           <h2 className="text-balance font-display text-3xl font-medium text-neutral-900 mb-3">
-            Trusted by Industry Leaders
+            {t("heading")}
           </h2>
 
           <p className="text-pretty text-lg text-neutral-500 leading-relaxed">
-            Empowering over{" "}
-            <span className="font-medium text-brand">2,000+ organizations</span>{" "}
-            across <span className="font-medium text-brand">50+ cities</span>{" "}
-            worldwide
+            {t("description.prefix1")}{" "}
+            <span className="font-medium text-brand">
+              {t("description.highlight1")}
+            </span>{" "}
+            {t("description.suffix1")}{" "}
+            <span className="font-medium text-brand">
+              {t("description.highlight2")}
+            </span>{" "}
+            {t("description.suffix")}
           </p>
           {/* <p className="text-pretty text-lg text-neutral-500 leading-relaxed">
             Empowering over{" "}

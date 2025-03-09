@@ -51,7 +51,13 @@
   "partners": {
     "sectionTitle": "Our Partners",
     "heading": "Trusted by Industry Leaders",
-    "description": "Empowering over 2,000+ organizations across 50+ cities worldwide"
+    "description": {
+      "prefix1": "Empowering over",
+      "highlight1": "2,000+ organizations",
+      "suffix1": "across",
+      "highlight2": "50+ cities",
+      "suffix": "worldwide"
+    }
   },
   "benefits": {
     "sectionTitle": "Benefits",
