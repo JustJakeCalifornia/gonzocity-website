@@ -118,21 +118,21 @@
     "heading": "Alles, was Sie für Ihre Stadtverwaltung brauchen",
     "description": "Wählen Sie aus unserer umfassenden Palette von Modulen, um die perfekte Lösung für Ihre Kommune zu erstellen",
     "items": {
-      "gullyGonzo": {
+      "gullyModule": {
         "title": "GullyGonzo",
-        "description": "Optimieren Sie das Management von Abflüssen und Entwässerung mit Echtzeit-Überwachung, Wartungsplanung und Problemverfolgung für optimalen städtischen Wasserfluss"
+        "description": "Optimieren Sie das Management von Abflüssen und Entwässerung mit Echtzeit-Überwachung, Wartungsplanung und Problemverfolgung für optimalen städtischen Wasserfluss."
       },
-      "ratGonzo": {
+      "ratModule": {
         "title": "RatGonzo",
-        "description": "Umfassendes Schädlingsbekämpfungssystem zur Überwachung von Nagetieraktivitäten, Verfolgung von Köderstationen und Koordination von Schnelleinsatzteams"
+        "description": "Umfassendes Schädlingsbekämpfungssystem zur Überwachung von Nagetieraktivitäten, Verfolgung von Köderstationen und Koordination von Schnelleinsatzteams."
       },
-      "streetGonzo": {
+      "streetModule": {
         "title": "StreetGonzo",
-        "description": "Effizientes Management von Stadtmöbeln und Infrastruktur zur Wartung von Bänken, Beschilderungen, Beleuchtung und anderen städtischen Einrichtungen"
+        "description": "Effizientes Management von Stadtmöbeln und Infrastruktur zur Wartung von Bänken, Beschilderungen, Beleuchtung und anderen städtischen Einrichtungen."
       },
-      "parkGonzo": {
+      "parkModule": {
         "title": "ParkGonzo",
-        "description": "Moderne Lösung für die Verwaltung von Parks und Erholungseinrichtungen zur Pflege von Grünflächen, Spielplätzen und städtischen Forstanlagen"
+        "description": "Moderne Lösung für die Verwaltung von Parks und Erholungseinrichtungen zur Pflege von Grünflächen, Spielplätzen und städtischen Forstanlagen."
       }
     }
   },

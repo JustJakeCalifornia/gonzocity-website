@@ -118,21 +118,21 @@
     "heading": "Everything you need to manage your city",
     "description": "Choose from our comprehensive suite of modules to build the perfect solution for your municipality",
     "items": {
-      "gullyGonzo": {
+      "gullyModule": {
         "title": "GullyGonzo",
-        "description": "Streamline gully and drainage management with real-time monitoring, maintenance scheduling, and issue tracking for optimal urban water flow"
+        "description": "Streamline gully and drainage management with real-time monitoring, maintenance scheduling, and issue tracking for optimal urban water flow."
       },
-      "ratGonzo": {
+      "ratModule": {
         "title": "RatGonzo",
-        "description": "Comprehensive pest control management system for monitoring rodent activity, tracking bait stations, and coordinating rapid response teams"
+        "description": "Comprehensive pest control management system for monitoring rodent activity, tracking bait stations, and coordinating rapid response teams."
       },
-      "streetGonzo": {
+      "streetModule": {
         "title": "StreetGonzo",
-        "description": "Efficient street furniture and infrastructure management for maintaining benches, signs, lights, and other urban amenities"
+        "description": "Efficient street furniture and infrastructure management for maintaining benches, signs, lights, and other urban amenities."
       },
-      "parkGonzo": {
+      "parkModule": {
         "title": "ParkGonzo",
-        "description": "Modern parks and recreation management solution for maintaining green spaces, playgrounds, and urban forestry assets"
+        "description": "Modern parks and recreation management solution for maintaining green spaces, playgrounds, and urban forestry assets."
       }
     }
   },

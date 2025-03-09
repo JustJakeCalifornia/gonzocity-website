@@ -3,6 +3,7 @@
 import { Badge } from "@/components/ui/badge"
 import { CardContent } from "@/components/ui/card"
 import { GradientBorderCard } from "@/components/ui/cards/gradient-border-card"
+import { useTranslations } from "next-intl"
 import Image from "next/image"
 
 enum NewModule {
@@ -20,42 +21,40 @@ interface ModuleProps {
 }
 
 const ModulesSection = () => {
+  const t = useTranslations("modules")
+
   const modules: ModuleProps[] = [
     {
       id: 1,
-      title: "Asset Management",
+      title: t("items.gullyModule.title"),
+      description: t("items.gullyModule.description"),
       newModule: NewModule.YES,
-      description:
-        "Effortlessly track and manage municipal assets with our intuitive interface.",
+      logo: "/gullygonzo.jpg",
+      color: "#B8FD7B",
+    },
+    {
+      id: 2,
+      title: t("items.ratModule.title"),
+      description: t("items.ratModule.description"),
+      newModule: NewModule.NO,
       logo: "/ratgonzo.jpg",
       color: "#FB5755",
     },
     {
-      id: 2,
-      title: "Asset Management",
+      id: 3,
+      title: t("items.streetModule.title"),
+      description: t("items.streetModule.description"),
       newModule: NewModule.NO,
-      description:
-        "Effortlessly track and manage municipal assets with our intuitive interface.",
       logo: "/streetgonzo.jpg",
       color: "#ffc414",
     },
     {
-      id: 3,
-      title: "Asset Management",
-      newModule: NewModule.NO,
-      description:
-        "Effortlessly track and manage municipal assets with our intuitive interface.",
+      id: 4,
+      title: t("items.parkModule.title"),
+      description: t("items.parkModule.description"),
+      newModule: NewModule.YES,
       logo: "/parkgonzo.jpg",
       color: "#00ccb1",
-    },
-    {
-      id: 4,
-      title: "Asset Management",
-      newModule: NewModule.YES,
-      description:
-        "Effortlessly track and manage municipal assets with our intuitive interface.",
-      logo: "/gullygonzo.jpg",
-      color: "#B8FD7B",
     },
   ]
 
@@ -63,15 +62,16 @@ const ModulesSection = () => {
     <section id="modules" className="relative w-full py-20 overflow-hidden">
       <div className="container px-4 mx-auto">
         <div className="max-w-3xl mb-16">
-          <h2 className="text-sm font-medium text-brand">Modules</h2>
+          <h2 className="text-sm font-medium text-brand">
+            {t("sectionTitle")}
+          </h2>
 
           <h2 className="text-balance font-display text-3xl font-medium text-neutral-900 mb-3">
-            Everything you need to manage your city
+            {t("heading")}
           </h2>
 
           <p className="text-pretty text-lg text-neutral-500 leading-relaxed">
-            Choose from our comprehensive suite of modules to build the perfect
-            solution for your municipality.
+            {t("description")}
           </p>
         </div>
       </div>

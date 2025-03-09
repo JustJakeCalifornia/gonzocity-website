@@ -37,7 +37,7 @@ export const GradientBorderCard = ({
 
   return (
     <div
-      className={cn("relative group", containerClassName)}
+      className={cn("relative group inline-flex w-fit", containerClassName)}
       style={{ padding: borderWidth }}
     >
       {/* Blur layer */}
@@ -75,7 +75,10 @@ export const GradientBorderCard = ({
       />
 
       <Card
-        className={cn("relative z-10 rounded-[20px] bg-background", className)}
+        className={cn(
+          "relative z-10 rounded-[20px] bg-background w-fit",
+          className
+        )}
         {...props}
       >
         {children}
