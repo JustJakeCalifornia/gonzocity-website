@@ -4,6 +4,7 @@ import * as React from "react"
 import { FileText, Shield, Instagram, Scale } from "lucide-react"
 import Logo from "@/components/ui/logo"
 import { useTranslations } from "next-intl"
+import LocalizedLink from "@/components/navigation/localized-link"
 
 export function FooterSection() {
   const t = useTranslations("footer")
@@ -80,13 +81,13 @@ export function FooterSection() {
                   { name: t("sections.socials.instagram"), Icon: Instagram },
                 ].map(({ name, Icon }) => (
                   <li key={name}>
-                    <a
+                    <LocalizedLink
                       href="https://instagram.com/gullygonzo"
                       className="group flex items-center text-muted-foreground hover:text-foreground transition-colors"
                     >
                       <Icon className="mr-2 h-4 w-4" />
                       {name}
-                    </a>
+                    </LocalizedLink>
                   </li>
                 ))}
               </ul>
@@ -115,13 +116,13 @@ export function FooterSection() {
                   },
                 ].map(({ name, Icon, href }) => (
                   <li key={name}>
-                    <a
+                    <LocalizedLink
                       href={href}
                       className="group flex items-center text-muted-foreground hover:text-foreground transition-colors"
                     >
                       <Icon className="mr-2 h-4 w-4" />
                       {name}
-                    </a>
+                    </LocalizedLink>
                   </li>
                 ))}
               </ul>
